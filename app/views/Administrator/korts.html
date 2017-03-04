@@ -1,0 +1,33 @@
+#{extends 'main.html' /}
+#{set title:'Администратор' /}
+
+<div id="login">
+    <table id="menu">
+        <tbody>
+        <tr>
+            <td><img src="/public/images/korts.jpg"></img></td>
+            <td><a href="@{Administrator.choiceObject("play1")}">Игровая площадка. 1</a></td>
+        </tr>
+        <tr>
+            <td><img src="/public/images/korts.jpg"></img></td>
+            <td><a href="@{Administrator.choiceObject("play2")}">Игровая площадка. 2</a></td>
+        </tr>
+        <tr>
+            <td><img src="/public/images/korts.jpg"></img></td>
+            <td><a href="@{Administrator.choiceObject("play3")}">Игровая площадка. 3</a></td>
+        </tr>
+        <tr>
+            <td><img src="/public/images/korts.jpg"></img></td>
+            <td><a href="@{Administrator.choiceObject("play4")}">Игровая площадка. 4</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="@{Administrator.menu()}">Назад</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>

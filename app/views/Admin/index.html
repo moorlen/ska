@@ -1,0 +1,39 @@
+#{extends 'main.html' /}
+#{set title:'Администратор' /}
+
+<table>
+    <tr>
+        <td>Логин</td>
+        <td>Роль</td>
+        <td>Действие</td>
+    </tr>
+#{paginate.list items:allUser, as:'currentUser'}
+    <tr>
+        <td>
+            ${currentUser.login}
+        </td>
+        <td>
+            ${currentUser.type}
+        </td>
+        <td><a href="@{Admin.deleteUser(currentUser.id)}">Удалить</a></td>
+    </tr>
+#{/paginate.list}
+    <tr>
+        <td></td>
+        <td></td>
+        <td><input type="button" onclick="newUser()" value="Новый пользователь"/></td>
+    </tr>
+</table>
+#{paginate.controls items:allUser /}
+
+<script>
+    function newUser() {
+        var action = #{jsAction @Admin.newUser() /};
+        document.location = action();
+    }
+    ;
+</script>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>

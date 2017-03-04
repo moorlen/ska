@@ -1,0 +1,34 @@
+#{extends 'main.html' /}
+#{set title:'Trainer' /}
+
+<table>
+    <tr>
+        <td>ФИО</td>
+        <td>Действие</td>
+    </tr>
+#{paginate.list items:allUser, as:'currentUser'}
+    <tr>
+        <td>
+            <a href="@{Trainer.viewClient(currentUser.id)}">${currentUser.firstName} ${currentUser.lastName} ${currentUser.thirdName}</a>
+        </td>
+        <td><a href="@{Abonements.index(currentUser.id)}">Абонименты</a></td>
+    </tr>
+#{/paginate.list}
+    <tr>
+        <td></td>
+        <td><input type="button" onclick="newClient()" value="Новый клиент"/></td>
+    </tr>
+</table>
+#{paginate.controls items:allUser /}
+
+<script>
+    function newClient() {
+        var action = #{jsAction @Trainer.newClient() /};
+        document.location = action();
+    }
+    ;
+</script>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>

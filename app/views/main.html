@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>#{get 'title' /}</title>
+    <meta charset="${_response_encoding}">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+#{get 'moreStyles' /}
+    <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+
+    <script src="/public/codebase/dhtmlxscheduler.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/public/codebase/dhtmlxscheduler.css" type="text/css" media="screen" title="no title"
+          charset="utf-8">
+    <script src="/public/codebase/locale/locale_ru.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/public/codebase/dhtmlxscheduler_minical.js" type="text/javascript" charset="utf-8"></script>
+    <!--script src="/public/javascripts/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script-->
+
+    <script src="@{'/public/javascripts/jquery-1.7.min.js'}" type="text/javascript"
+            charset="${_response_encoding}"></script>
+    <script src="@{'/public/javascripts/base.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+    <script src="@{'/public/ui/jquery-ui-1.8.18.custom/development-bundle/ui/jquery.ui.core.js'}" type="text/javascript"
+            charset="${_response_encoding}"></script>
+    <script src="@{'/public/ui/jquery-ui-1.8.18.custom/development-bundle/ui/jquery.ui.widget.js'}"
+            type="text/javascript" charset="${_response_encoding}"></script>
+    <style id="custom-style"></style>
+    <script src="@{'/public/ui/jquery-ui-1.8.18.custom/development-bundle/ui/jquery.ui.datepicker_ru.js'}"
+            type="text/javascript" charset="${_response_encoding}"></script>
+#{get 'moreScripts' /}
+</head>
+<body>
+<div id="header">
+    <h1>Фитнес клуб демо</h1>
+#{if user?.id}
+    <div id="options">
+        Вошли как ${user.login}
+        <a href="@{Application.logout()}">Выйти</a>
+        <a href="@{Application.changePassword()}">Сменить пароль</a>
+    </div>
+#{/if}
+</div>
+
+<div id="content">
+#{if flash.error}
+    <p class="fError">
+        <strong>${flash.error}</strong>
+    </p>
+#{/if}
+#{doLayout /}
+</div>
+
+<div id="footer">
+</div>
+</body>
+</html>
