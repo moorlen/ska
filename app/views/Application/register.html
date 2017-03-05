@@ -1,0 +1,125 @@
+#{extends 'main.html' /}
+#{set title:'Регестрация' /}
+
+<script>
+    $(function () {
+        $(".myDate").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+        $(".calendar").click(function () {
+            $(".myDate[name='" + $(this).attr('relateTo') + "']").datepicker("show");
+        });
+    });
+</script>
+
+<h1>Регестрация</h1>
+
+#{form @saveUser(), method='POST'}
+<table>
+    <tbody>
+    <tr>
+        <th>Логин:</th>
+        <td>
+            #{field 'user.login'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${user?.login}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Фамилия:</th>
+        <td>
+            #{field 'user.firstName'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${user?.firstName}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Имя:</th>
+        <td>
+            #{field 'user.lastName'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${user?.lastName}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Отчество:</th>
+        <td>
+            #{field 'user.thirdName'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${user?.thirdName}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Дата рождения:</th>
+        <td>
+            #{field 'user.birthDate'}
+                <p class="${field.errorClass}">
+                    <input type="text" class="myDate" name="${field.name}"
+                           value="${user?.birthDate?.format()}"/>
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Тип пользователя:</th>
+        <td>
+            #{field 'user.type'}
+                <p class="${field.errorClass}">
+                    #{select 'user.type', value:user?.type, id:'user.type',items:types.entrySet(),labelProperty:'value',valueProperty:'key'}
+                    #{/select}
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Пароль:</th>
+        <td>
+            #{field 'user.password'}
+                <p class="${field.errorClass}">
+                    <input type="password" name="${field.name}" size="16" value="${user?.password}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Подтвердить пароль:</th>
+        <td>
+            #{field 'verifyPassword'}
+                <p class="${field.errorClass}">
+                    <input type="password" name="${field.name}" size="16"
+                           value="${verifyPassword}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="submit" value="Подтвердить">
+        </td>
+        <td>
+            <a href="@{index()}">Отмена</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+#{/form}

@@ -1,0 +1,19 @@
+#{extends 'main.html' /}
+#{set title:'Личный кабинет' /}
+
+<div id="login">
+    <table id="menu">
+        <tbody>
+        <tr>
+            <td><a href="@{Client.viewCalendar()}">Календарь посещений</a></td>
+        </tr>
+        <tr>
+            <td><a href="@{Client.viewCalendar()}">Абонементы</a></td>
+        </tr>
+            </tbody>
+    </table>
+</div>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>

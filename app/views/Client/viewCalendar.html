@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+#{set title:'Администратор' /}
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+    <script src="/public/codebase/dhtmlxscheduler.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/public/codebase/dhtmlxscheduler.css" type="text/css" media="screen" title="no title"
+          charset="utf-8">
+    <script src="/public/codebase/locale/locale_ru.js" type="text/javascript" charset="utf-8"></script>
+#{set title:'Administrator' /}
+</head>
+
+<script type="text/javascript" charset="utf-8">
+    function init() {
+        scheduler.config.xml_date = "%d-%m-%Y %H:%i";
+        scheduler.config.first_hour = 8;
+        scheduler.config.prevent_cache = true;
+        scheduler.config.readonly_form = true;
+        scheduler.attachEvent("onBeforeDrag", function () {
+            return false;
+        })
+        scheduler.attachEvent("onClick", function () {
+            return false;
+        })
+        scheduler.config.details_on_dblclick = true;
+        scheduler.config.dblclick_create = false;
+        scheduler.config.event_duration = 60;
+        scheduler.config.auto_end_date = true;
+
+        scheduler.locale.labels.section_type = "Оплачено";
+
+
+        scheduler.attachEvent("onEventSave", function (id, ev) {
+            if (!ev.text) {
+                dhtmlx.alert("Описание не должно быть пустым");
+                return false;
+            }
+            return true;
+        });
+
+        scheduler.config.lightbox.sections = [
+            {name: "description", height: 130, map_to: "text", type: "textarea", focus: true},
+            {name: "type", height: 40, type: "textarea", map_to: "details"},
+            {name: "time", height: 72, type: "calendar_time", map_to: "auto"}
+        ];
+        scheduler.config.buttons_left = ["dhx_cancel_btn"];
+        scheduler.config.buttons_right = [];
+        scheduler.init('scheduler_here', ${currentDate}, "${currentMode}");
+    #{schedulerParse objectId: "${client.login}"/}
+    }
+</script>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>
+
+<style type="text/css" media="screen">
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        overflow: hidden;
+    }
+</style>
+
+<body onload="init();">
+<div style='height:20px; padding:5px 10px;'>
+    <input type="button" name="cancel" value="Назад" style="right:300px;" onclick="cancel()"/>
+    <label style="text-align:center;margin-left: 350px;font-size: 18px;">${client.firstName} ${client.lastName} ${client.thirdName}</label>
+    <script>
+        function cancel() {
+            var action = #{jsAction @Client.index()/};
+            document.location = action();
+        }
+        ;
+
+        scheduler.save_lightbox = function () {
+            var data = scheduler._lightbox_out({}, scheduler._lame_copy(scheduler.getEvent(scheduler._lightbox_id)));
+            if (scheduler.checkEvent("onEventSave") && !scheduler.callEvent("onEventSave", [scheduler._lightbox_id, data, scheduler._new_event]))
+                return;
+            var monthNames = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"
+            ];
+            var days = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
+                , "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
+                , "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
+            var action = #{jsAction @Trainer.saveEvent(':s', ':e', ':t', ':i', ':p', ':cD', ':cM')/};
+            document.location = action({s: days[data.start_date.getDate()] + '-' +
+                    monthNames[data.start_date.getMonth()] + '-' + data.start_date.getFullYear() + ' '
+                    + data.start_date.getHours() + ':' + data.start_date.getMinutes(),
+                e: days[data.end_date.getDate()] + '-' + monthNames[data.end_date.getMonth()] + '-' +
+                        data.end_date.getFullYear() + ' ' + data.end_date.getHours() + ':' +
+                        data.end_date.getMinutes(), t: data.text, i: scheduler._lightbox_id,
+                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode});
+            scheduler._empty_lightbox(data);
+            scheduler.hide_lightbox();
+        };
+    </script>
+</div>
+
+<div id="scheduler_here" class="dhx_cal_container" style='width:100%; height:100%;'>
+    <div class="dhx_cal_navline">
+        <div class="dhx_cal_prev_button">&nbsp;</div>
+        <div class="dhx_cal_next_button">&nbsp;</div>
+        <div class="dhx_cal_today_button"></div>
+        <div class="dhx_cal_date"></div>
+        <div class="dhx_cal_tab" name="day_tab" style="right:204px;"></div>
+        <div class="dhx_cal_tab" name="week_tab" style="right:140px;"></div>
+        <div class="dhx_cal_tab" name="month_tab" style="right:76px;"></div>
+    </div>
+    <div class="dhx_cal_header">
+    </div>
+    <div class="dhx_cal_data">
+    </div>
+</div>
+
+</div>
+
+<div id="footer">
+</div>
+</body>
+</html>

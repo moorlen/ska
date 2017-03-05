@@ -1,0 +1,112 @@
+#{extends 'main.html' /}
+#{set title:'Новый абонимент' /}
+
+<script>
+    $(function () {
+        $(".myDate").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+        $(".calendar").click(function () {
+            $(".myDate[name='" + $(this).attr('relateTo') + "']").datepicker("show");
+        });
+    });
+</script>
+
+<h1>Новый абонемент</h1>
+
+#{form @saveAbonement()}
+<table>
+    <tbody>
+    <tr>
+        <th>Номер:</th>
+        <td>
+            #{field 'abonement.number'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}"
+                        #{if abonement?.number != null}
+                           value="${abonement?.number}"
+                        #{/if}
+                        #{else}
+                           value="${number}"
+                        #{/else}
+                            />
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>С:</th>
+        <td>
+            #{field 'abonement.startDate'}
+                <p class="${field.errorClass}">
+                    <input type="text" class="myDate" id="startDate" name="${field.name}"
+                           value="${abonement?.startDate?.format()}"/>
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>По:</th>
+        <td>
+            #{field 'abonement.endDate'}
+                <p class="${field.errorClass}">
+                    <input type="text" class="myDate" id="endDate" name="${field.name}"
+                           value="${abonement?.endDate?.format()}"/>
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Количество посещений:</th>
+        <td>
+            #{field 'abonement.count'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${abonement?.count}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Вид:</th>
+        <td>
+            #{field 'abonement.target'}
+                <p class="${field.errorClass}">
+                    #{select 'abonement.target', value:abonement?.target, id:'abonement.target',items:targets.entrySet(),labelProperty:'value',valueProperty:'key'}
+                    #{/select}
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Цена:</th>
+        <td>
+            #{field 'abonement.price'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${abonement?.price}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+        #{field 'clientId'}
+        <input type="hidden" name="${field.name}" size="16" value="${clientId}">
+        #{/field}
+    <tr>
+        <td>
+            <input type="submit" value="Подтвердить">
+        </td>
+        <td>
+            <a href="@{index(clientId)}">Отмена</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+#{/form}
