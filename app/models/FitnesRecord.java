@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="FitnesRecord")
+@Table(name = "FitnesRecord")
 public class FitnesRecord extends Model {
 
     @Required
@@ -23,6 +23,10 @@ public class FitnesRecord extends Model {
     @Required
     public String who;
 
-    @Column(precision=6, scale=2)
+    @Column(precision = 6, scale = 2)
     public Float price;
+
+    public String type;
+
+    public String abonementNumber;
 }

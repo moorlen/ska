@@ -118,18 +118,21 @@ public class ReportTags extends FastTags {
 
 
                 // execute select SQL stetement
-                ResultSet rs = statement.executeQuery("SELECT id, startDate, endDate, text, price FROM FitnesRecord WHERE who = '" + id + "'");
+                ResultSet rs = statement.executeQuery("SELECT id, startDate, endDate, text, price, abonementNumber, type  FROM FitnesRecord WHERE who = '" + id + "' OR type ='" + id + "'");
                 StringBuilder html = new StringBuilder();
                 html.append("scheduler.parse([");
                 while (rs.next()) {
                     Float price = rs.getFloat("price");
+                    String abonementNumber = rs.getString("abonementNumber");
                     html.append("{");
                     html.append("id: \"" + rs.getString("id") + "\", ");
                     html.append("start_date: \"" + rs.getString("startDate") + "\", ");
                     html.append("end_date: \"" + rs.getString("endDate") + "\", ");
                     html.append("text: \"" + rs.getString("text") + "\", ");
+                    html.append("combo_select_abonement: \"" + abonementNumber + "\", ");
+                    html.append("combo_select_kort: \"" + rs.getString("type") + "\", ");
                     html.append("details: \"" + price + "\"");
-                    if (price == null || price == 0) {
+                    if ((price == null || price == 0) && (abonementNumber == "")) {
                         html.append(",color: \"red\"");
                     }
                     html.append("}");
@@ -164,6 +167,7 @@ public class ReportTags extends FastTags {
         Connection dbConnection = null;
         Statement statement = null;
         String id = args.get("objectId").toString();
+        String type = args.get("type").toString();
         if (id != null) {
             try {
                 dbConnection = getDBConnection();
@@ -172,7 +176,7 @@ public class ReportTags extends FastTags {
 
                 // execute select SQL stetement
                 ResultSet rs = statement.executeQuery("SELECT number FROM Abonement " +
-                        "WHERE client_id = '" + id + "' AND target = 'fitnes'" +
+                        "WHERE client_id = '" + id + "' AND target = '" + type + "' AND ostatok != 0 " +
                         "AND( Month(startDate) = Month(NOW()) AND Month(endDate) = Month(NOW()) AND YEAR(startDate) = YEAR(NOW()) AND YEAR(endDate) = YEAR(NOW()))");
                 StringBuilder html = new StringBuilder();
                 html.append("var abonements = [");

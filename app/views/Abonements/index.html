@@ -32,13 +32,29 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><a href="@{Abonements.newAbonement(client.id)}">Добавить абонимент</a>
-                <br><a href="@{Trainer.index()}">Назад</a>
+            <td>
+                <input type="button" onclick="newAbonement()" value="Новый клиент"/>
+                <br/>
+                <input type="button" onclick="cancel()" value="Назад"/>
             </td>
         </tr>
     </table>
 #{paginate.controls items:allAbonemets /}
 </div>
+
+<script>
+    function newAbonement() {
+        var action = #{jsAction @Abonements.newAbonement(client.id) /};
+        document.location = action();
+    }
+    ;
+
+    function cancel() {
+        var action = #{jsAction @Application.index() /};
+        document.location = action();
+    }
+    ;
+</script>
 
 <script type="text/javascript" charset="${_response_encoding}">
     sessvars.$.clearMem()

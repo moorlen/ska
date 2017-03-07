@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-#{set title:'Администратор' /}
+#{set title:'Тренер' /}
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -13,6 +13,9 @@
     <script src="/public/codebase/dhtmlxCombo/dhtmlxcombo.js"></script>
     <script src="/public/codebase/dhtmlxCommon/dhtmlxcommon.js"></script>
     <script src="/public/codebase/ext/dhtmlxscheduler_editors.js" type="text/javascript" charset="utf-8"></script>
+    <script src="@{'/public/javascripts/jquery-1.7.min.js'}" type="text/javascript"
+            charset="${_response_encoding}"></script>
+    <script src="@{'/public/javascripts/base.js'}" type="text/javascript" charset="${_response_encoding}"></script>
 
     <link rel="stylesheet" type="text/css" href="/public/codebase/dhtmlxCombo/skins/dhtmlxcombo_dhx_terrace.css">
 #{set title:'Administrator' /}
@@ -46,11 +49,11 @@
             return true;
         });
 
-    #{abonementsParse objectId: "${client.id}"/}
+    #{abonementsParse objectId: "${client.id}", type: 'fitnes'/}
 
         scheduler.config.lightbox.sections = [
             {name: "description", height: 130, map_to: "text", type: "textarea", focus: true},
-            {name: "abonement", options: abonements, map_to: "combo_select", type: "combo", filtering: true},
+            {name: "abonement", options: abonements, map_to: "combo_select_abonement", type: "combo", filtering: true},
             {name: "type", height: 40, type: "textarea", map_to: "details"},
             {name: "time", height: 72, type: "calendar_time", map_to: "auto"}
         ];
@@ -100,7 +103,7 @@
         ;
 
         function cancel() {
-            var action = #{jsAction @Trainer.index()/};
+            var action = #{jsAction @Application.index()/};
             document.location = action();
         }
         ;
@@ -121,7 +124,7 @@
                 e: days[data.end_date.getDate()] + '-' + monthNames[data.end_date.getMonth()] + '-' +
                         data.end_date.getFullYear() + ' ' + data.end_date.getHours() + ':' +
                         data.end_date.getMinutes(), t: data.text, i: scheduler._lightbox_id,
-                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode, a: data.combo_select});
+                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode, a: data.combo_select_abonement});
             scheduler._empty_lightbox(data);
             scheduler.hide_lightbox();
         };
@@ -137,7 +140,7 @@
             }
 
             this.callEvent("onEventDeleted", [id, ev]);
-            var action = #{jsAction @Trainer.deleteEvent(':i')/};
+            var action = #{jsAction @Application.deleteEvent(':i')/};
             document.location = action({i: id});
         };
 

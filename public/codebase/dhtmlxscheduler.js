@@ -2472,7 +2472,7 @@ window.dhtmlXScheduler = window.scheduler = {version: "4.4.0"}, window.dhtmlx ||
                         var a = scheduler._waiAria.lightboxSectionButtonAttrString(this.locale.labels["button_" + s[r].button]);
                         d = "<div " + a + " class='dhx_custom_button' index='" + r + "'><div class='dhx_custom_button_" + s[r].button + "'></div><div>" + this.locale.labels["button_" + s[r].button] + "</div></div>"
                     }
-                    this.config.wide_form && (t += "<div class='dhx_wrap_section'>");
+                    this.config.wide_form && (t += "<div class='dhx_wrap_section' id='"+s[r].name+"_block'>");
                     var l = this.locale.labels["section_" + s[r].name];
                     "string" != typeof l && (l = s[r].name), t += "<div id='" + s[r].id + "' class='dhx_cal_lsection'>" + d + "<label>" + l + "</label></div>" + n.render.call(this, s[r]), t += "</div>"
                 }

@@ -6,6 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
+    <content url="file://D:/Program Files/play-1.2.4/modules/paginate-0.12">
+      <sourceFolder url="file://D:/Program Files/play-1.2.4/modules/paginate-0.12/app" isTestSource="false" />
+    </content>
     <content url="file://D:/Program Files/play-1.4.4/modules/docviewer">
       <sourceFolder url="file://D:/Program Files/play-1.4.4/modules/docviewer/app" isTestSource="false" />
     </content>
@@ -20,13 +23,16 @@
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
           <root url="file://C:/../d:Program Files/play-1.4.4/modules/paginate-0.12/lib" />
+          <root url="file://C:/../d:Program Files/play-1.2.4/modules/paginate-0.12/lib" />
           <root url="file://C:/../d:Program Files/play-1.4.4/modules/docviewer/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
           <root url="file://C:/../d:Program Files/play-1.4.4/modules/paginate-0.12/src" />
+          <root url="file://C:/../d:Program Files/play-1.2.4/modules/paginate-0.12/src" />
           <root url="file://C:/../d:Program Files/play-1.4.4/modules/docviewer/src" />
         </SOURCES>
+        <jarDirectory url="file://C:/../d:Program Files/play-1.2.4/modules/paginate-0.12/lib" recursive="false" />
         <jarDirectory url="file://C:/../d:Program Files/play-1.4.4/modules/docviewer/lib" recursive="false" />
         <jarDirectory url="file://C:/../d:Program Files/play-1.4.4/modules/paginate-0.12/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
@@ -38,7 +44,9 @@
           <root url="file://D:/Program Files/play-1.4.4/framework/lib" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Мои документы/Downloads/groovy-all-2.4.7-sources.jar!/" />
+        </SOURCES>
         <jarDirectory url="file://D:/Program Files/play-1.4.4/framework/lib" recursive="false" />
       </library>
     </orderEntry>
@@ -53,6 +61,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="groovy-all-2.4.7-sources" level="project" />
   </component>
 </module>
 

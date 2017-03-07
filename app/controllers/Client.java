@@ -1,7 +1,12 @@
 package controllers;
 
+import models.Abonement;
 import models.User;
-import play.mvc.Controller;
+import play.modules.paginate.ValuePaginator;
+import utils.AbonementComporator;
+
+import java.util.Collections;
+import java.util.List;
 
 public class Client extends Application {
     public static void index() {
@@ -23,5 +28,14 @@ public class Client extends Application {
             currentMode = "week";
         }
         render(currentDate, currentMode, client);
+    }
+
+    public static void viewAbonements() {
+        User client = connected();
+        List<Abonement> abonements = Abonement.find("byClient_Id", client.id).fetch();
+        Collections.sort(abonements, new AbonementComporator());
+        ValuePaginator allAbonemets = new ValuePaginator(abonements);
+        allAbonemets.setPageSize(10);
+        render(client, allAbonemets);
     }
 }
