@@ -1,0 +1,53 @@
+#{extends 'main.html' /}
+#{set title:'Абонименты' /}
+
+<div id="login">
+    <table>
+        <tr>
+            <td>Номер</td>
+            <td>Период</td>
+            <td>Использовано</td>
+            <td>Осталось</td>
+            <td>Вид</td>
+            <td>Цена</td>
+        </tr>
+    #{paginate.list items:allAbonemets, as:'currentAbonement'}
+        <tr>
+            <td>${currentAbonement.number}</td>
+            <td>${currentAbonement.startDate.format()} - ${currentAbonement.endDate.format()}</td>
+            <td>${currentAbonement.count - currentAbonement.ostatok}</td>
+            <td>${currentAbonement.ostatok}</td>
+            #{if currentAbonement.target == 'kort'}
+                <td>Игровой зал</td>
+            #{/if}
+            #{else}
+                <td>Тренажерный зал</td>
+            #{/else}
+            <td>${currentAbonement.price}</td>
+        </tr>
+    #{/paginate.list}
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="button" onclick="cancel()" value="Назад"/>
+            </td>
+        </tr>
+    </table>
+#{paginate.controls items:allAbonemets /}
+</div>
+
+<script>
+    function cancel() {
+        var action = #{jsAction @Application.index() /};
+        document.location = action();
+    }
+    ;
+</script>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>

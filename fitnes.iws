@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b697678f-d04e-4319-8781-e3e01819b8f7" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\play_work\checkout2\app\views\Trainer\newClient.html" afterPath="$PROJECT_DIR$/app/views/Application/newClient.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Administrator.java" afterPath="$PROJECT_DIR$/app/controllers/Administrator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Client.java" afterPath="$PROJECT_DIR$/app/controllers/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/FitnesRecord.java" afterPath="$PROJECT_DIR$/app/models/FitnesRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tags/ReportTags.java" afterPath="$PROJECT_DIR$/app/tags/ReportTags.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Trainer.java" afterPath="$PROJECT_DIR$/app/controllers/Trainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.java" afterPath="$PROJECT_DIR$/app/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/codebase/dhtmlxCombo/dhtmlxcombo.js" afterPath="$PROJECT_DIR$/public/codebase/dhtmlxCombo/dhtmlxcombo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" afterPath="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnes.iml" afterPath="$PROJECT_DIR$/fitnes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnes.ipr" afterPath="$PROJECT_DIR$/fitnes.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnes.iws" afterPath="$PROJECT_DIR$/fitnes.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Abonements/index.html" afterPath="$PROJECT_DIR$/app/views/Abonements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Client/index.html" afterPath="$PROJECT_DIR$/app/views/Client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Trainer/index.html" afterPath="$PROJECT_DIR$/app/views/Trainer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Administrator/menu.html" afterPath="$PROJECT_DIR$/app/views/Administrator/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/messages.ru" afterPath="$PROJECT_DIR$/conf/messages.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Abonements/newAbonement.html" afterPath="$PROJECT_DIR$/app/views/Abonements/newAbonement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Trainer/viewClient.html" afterPath="$PROJECT_DIR$/app/views/Trainer/viewClient.html" />
     </list>
     <ignored path="fitnes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488876186015" ignored="false" />
+    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488922389171" ignored="false" />
     <file path="/viewClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488916150578" ignored="false" />
     <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488911045937" ignored="false" />
     <file path="/dhtmlxcombo.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488885332281" ignored="false" />
@@ -192,7 +172,7 @@
       <file leaf-file-name="Trainer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="56" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.42885375">
+            <state line="61" column="56" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.43055555">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -833,11 +813,16 @@
       <created>1488876186953</created>
       <updated>1488876186953</updated>
     </task>
+    <task id="LOCAL-00001" summary="update work with abonements">
+      <created>1488922523375</created>
+      <updated>1488922523375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1022" height="733" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -851,6 +836,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -902,7 +888,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="update work with abonements" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -915,6 +901,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="update work with abonements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1037,7 +1024,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="56" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.42885375">
+        <state line="61" column="56" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.43055555">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
