@@ -14,10 +14,10 @@ import java.util.List;
 
 @Entity
 public class User extends Model {
-    static final String mes = "validation.user.login.unique";
+    static final String uniqueMessage = "validation.user.login.unique";
+    static final String emailMessage = "validation.user.email";
 
-    @Email
-    @Required
+    @Email(message = emailMessage)
     public String email;
 
     @Required
@@ -34,7 +34,7 @@ public class User extends Model {
     public String thirdName;
 
     @Required
-    @Unique(message = mes)
+    @Unique(message = uniqueMessage)
     public String login;
 
     public String type;

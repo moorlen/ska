@@ -1,16 +1,16 @@
 #{extends 'main.html' /}
-#{set title:'Личный кабинет' /}
+#{set title:'Администратор' /}
 
 <div id="login">
     <table id="menu">
         <tbody>
         <tr>
-            <td><a href="@{Client.viewCalendar()}">Календарь посещений</a></td>
+            <td><a href="@{Administrator.menu()}">Объекты дворца</a></td>
         </tr>
         <tr>
-            <td><a href="@{Client.viewAbonements()}">Абонементы</a></td>
+            <td><a href="@{Administrator.clients()}">Клиенты</a></td>
         </tr>
-            </tbody>
+        </tbody>
     </table>
 </div>
 

@@ -1,5 +1,5 @@
 #{extends 'main.html' /}
-#{set title:'Trainer' /}
+#{set title:'Администратор' /}
 
 <table>
     <tr>
@@ -9,14 +9,18 @@
 #{paginate.list items:allUser, as:'currentUser'}
     <tr>
         <td>
-            <a href="@{Trainer.viewClient(currentUser.id)}">${currentUser.firstName} ${currentUser.lastName} ${currentUser.thirdName}</a>
+            <a href="@{Administrator.viewClient(currentUser.id)}">${currentUser.firstName} ${currentUser.lastName} ${currentUser.thirdName}</a>
         </td>
         <td><a href="@{Abonements.index(currentUser.id)}">Абонименты</a></td>
     </tr>
 #{/paginate.list}
     <tr>
         <td></td>
-        <td><input type="button" onclick="newClient()" value="Новый клиент"/></td>
+        <td>
+            <input type="button" onclick="newClient()" value="Новый клиент"/>
+            <br/>
+            <input type="button" onclick="cancel()" value="Назад"/>
+        </td>
     </tr>
 </table>
 #{paginate.controls items:allUser /}
@@ -24,6 +28,12 @@
 <script>
     function newClient() {
         var action = #{jsAction @Application.newClient() /};
+        document.location = action();
+    }
+    ;
+
+    function cancel() {
+        var action = #{jsAction @Application.index() /};
         document.location = action();
     }
     ;

@@ -33,8 +33,6 @@
             <td></td>
             <td></td>
             <td>
-                <input type="button" onclick="newAbonement()" value="Новый клиент"/>
-                <br/>
                 <input type="button" onclick="cancel()" value="Назад"/>
             </td>
         </tr>
@@ -43,12 +41,6 @@
 </div>
 
 <script>
-    function newAbonement() {
-        var action = #{jsAction @Abonements.newAbonement(client.id) /};
-        document.location = action();
-    }
-    ;
-
     function cancel() {
         var action = #{jsAction @Application.index() /};
         document.location = action();

@@ -59,35 +59,15 @@ public class Trainer extends Application {
         if (!("".equals(price) || "null".equals(price))) {
             record.price = new Float(price);
         }
-        if (abonement != null) {
+        if ((abonement != null) && (!"".equals(abonement))) {
             Abonement byNumber = Abonement.find("byNumber", abonement).first();
             byNumber.ostatok--;
             byNumber.save();
         }
+        record.abonementNumber = abonement;
         record.save();
         session.put("currentDate", currentDate);
         session.put("currentMode", currentMode);
         viewClient(Long.valueOf(session.get("clientId")));
-    }
-
-    public static void deleteEvent(String id) {
-        FitnesRecord record = FitnesRecord.findById(new Long(id));
-        record.delete();
-        viewClient(Long.valueOf(session.get("clientId")));
-    }
-
-    public static void newClient() {
-        render();
-    }
-
-    public static void saveClient(@Valid User client, String verifyPassword) {
-        validation.required(verifyPassword);
-        validation.equals(verifyPassword, client.password).message("Пароли не совпадают");
-        if (validation.hasErrors()) {
-            render("@newClient", client, verifyPassword);
-        }
-        client.type = "client";
-        client.create();
-        index();
     }
 }

@@ -104,9 +104,17 @@
             <input type="submit" value="Подтвердить">
         </td>
         <td>
-            <a href="@{index(clientId)}">Отмена</a>
+            <input type="button" onclick="cancel()" value="Назад"/>
         </td>
     </tr>
     </tbody>
 </table>
 #{/form}
+
+<script>
+    function cancel() {
+        var action = #{jsAction @Abonements.index(clientId) /};
+        document.location = action();
+    }
+    ;
+</script>

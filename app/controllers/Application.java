@@ -1,13 +1,14 @@
 package controllers;
 
-import play.*;
+import models.Abonement;
+import models.FitnesRecord;
+import models.User;
 import play.data.validation.Valid;
-import play.i18n.Lang;
-import play.mvc.*;
+import play.mvc.Before;
+import play.mvc.Controller;
 
-import java.util.*;
-
-import models.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Application extends Controller {
 
@@ -37,7 +38,7 @@ public class Application extends Controller {
         if (user != null) {
             switch (user.type.charAt(0)) {
                 case 'a':
-                    Administrator.menu();
+                    Administrator.rooms();
                     break;
                 case 'c':
                     Client.index();
@@ -77,7 +78,7 @@ public class Application extends Controller {
         flash.success("Welcome, " + user.firstName);
         switch (user.type.charAt(0)) {
             case 'a':
-                Administrator.menu();
+                Administrator.rooms();
                 break;
             case 'c':
                 Client.index();
@@ -99,7 +100,7 @@ public class Application extends Controller {
             flash.success("Welcome, " + user.firstName);
             switch (user.type.charAt(0)) {
                 case 'a':
-                    Administrator.menu();
+                    Administrator.rooms();
                     break;
                 case 'c':
                     Client.index();
@@ -142,6 +143,45 @@ public class Application extends Controller {
         user.password = newPassword;
         session.put("password", user.password);
         user.save();
+        index();
+    }
+
+    public static void newClient() {
+        render();
+    }
+
+    public static void saveClient(@Valid User client, String verifyPassword) {
+        validation.required(verifyPassword);
+        validation.equals(verifyPassword, client.password).message("Пароли не совпадают");
+        if (validation.hasErrors()) {
+            render("@newClient", client, verifyPassword);
+        }
+        client.type = "client";
+        client.create();
+        index();
+    }
+
+    public static void deleteEvent(String id) {
+        FitnesRecord record = FitnesRecord.findById(new Long(id));
+        if (record.abonementNumber != null) {
+            Abonement byNumber = Abonement.find("byNumber", record.abonementNumber).first();
+            byNumber.ostatok++;
+            byNumber.save();
+        }
+        record.delete();
+        User user = connected();
+        if (user != null) {
+            session.put("login", user.login);
+            session.put("password", user.password);
+            switch (user.type.charAt(0)) {
+                case 'a':
+                    Administrator.viewClient(Long.valueOf(session.get("clientId")));
+                    break;
+                case 't':
+                    Trainer.viewClient(Long.valueOf(session.get("clientId")));
+                    break;
+            }
+        }
         index();
     }
 }

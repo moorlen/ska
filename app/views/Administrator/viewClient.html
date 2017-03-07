@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-#{set title:'Тренер' /}
+#{set title:'Администратор' /}
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -40,6 +40,7 @@
 
         scheduler.locale.labels.section_type = "Оплачено";
         scheduler.locale.labels.section_abonement = "Абонимент";
+        scheduler.locale.labels.section_kort = "Игорвая площадка";
 
         scheduler.attachEvent("onEventSave", function (id, ev) {
             if (!ev.text) {
@@ -48,11 +49,18 @@
             }
             return true;
         });
+        var korts = [
+            {key: "play1", label: 'Корт 1'},
+            {key: "play2", label: 'Корт 2'},
+            {key: "play3", label: 'Корт 3'},
+            {key: "play4", label: 'Корт 4'}
+        ];
 
-    #{abonementsParse objectId: "${client.id}", type: 'fitnes'/}
+    #{abonementsParse objectId: "${client.id}", type: 'kort'/}
 
         scheduler.config.lightbox.sections = [
             {name: "description", height: 130, map_to: "text", type: "textarea", focus: true},
+            {name: "kort", options: korts, map_to: "combo_select_kort", type: "combo", filtering: true},
             {name: "abonement", options: abonements, map_to: "combo_select_abonement", type: "combo", filtering: true},
             {name: "type", height: 40, type: "textarea", map_to: "details"},
             {name: "time", height: 72, type: "calendar_time", map_to: "auto"}
@@ -60,7 +68,7 @@
         scheduler.init('scheduler_here', ${currentDate}, "${currentMode}");
 
 
-    #{schedulerParse objectId: "${client.login}"/}
+    #{schedulerParse objectId: "${client.login}", type: 'kort'/}
     }
 </script>
 
@@ -117,14 +125,14 @@
             var days = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
                 , "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
                 , "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
-            var action = #{jsAction @Trainer.saveEvent(':s', ':e', ':t', ':i', ':p', ':cD', ':cM', ':a')/};
+            var action = #{jsAction @Administrator.saveEvent(':s', ':e', ':t', ':i', ':p', ':cD', ':cM', ':a', ':k')/};
             document.location = action({s: days[data.start_date.getDate()] + '-' +
                     monthNames[data.start_date.getMonth()] + '-' + data.start_date.getFullYear() + ' '
                     + data.start_date.getHours() + ':' + data.start_date.getMinutes(),
                 e: days[data.end_date.getDate()] + '-' + monthNames[data.end_date.getMonth()] + '-' +
                         data.end_date.getFullYear() + ' ' + data.end_date.getHours() + ':' +
                         data.end_date.getMinutes(), t: data.text, i: scheduler._lightbox_id,
-                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode, a: data.combo_select_abonement});
+                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode, a: data.combo_select_abonement, k: data.combo_select_kort});
             scheduler._empty_lightbox(data);
             scheduler.hide_lightbox();
         };

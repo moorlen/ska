@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db396d55-3e94-483f-b461-e219a063c5a8" name="Default" comment="" />
+    <list default="true" id="b697678f-d04e-4319-8781-e3e01819b8f7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnes.iws" afterPath="$PROJECT_DIR$/fitnes.iws" />
+    </list>
     <ignored path="fitnes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485637786203" ignored="false" />
-    <file path="C:/Downloads/Архивы/FitnessJava-master/nbproject/project.properties" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485708306359" ignored="false" />
-    <file path="C:/Downloads/Архивы/FitnessJava-master/nbproject/private/private.properties" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485708306359" ignored="false" />
-    <file path="/menu.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485805975218" ignored="false" />
-    <file path="/main.css" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488458111203" ignored="false" />
-    <file path="/Administrator.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485886086968" ignored="false" />
-    <file path="/korts.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485896285937" ignored="false" />
-    <file path="/index.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488503803320" ignored="false" />
-    <file path="/Application.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485896672187" ignored="false" />
-    <file path="/fragment.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488508481273" ignored="false" />
-    <file path="/application.conf" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485868690296" ignored="false" />
-    <file path="/User.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488323869343" ignored="false" />
-    <file path="/messages.ru" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485870094171" ignored="false" />
-    <file path="/Admin.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485893048734" ignored="false" />
-    <file path="/Bootstrap.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485883047109" ignored="false" />
-    <file path="/data.yml" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485883209828" ignored="false" />
-    <file path="/newClient.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485883880031" ignored="false" />
-    <file path="/LoginComporator.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485884376687" ignored="false" />
-    <file path="/FitnesRecord.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485886034421" ignored="false" />
-    <file path="/Trainer.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488516908945" ignored="false" />
-    <file path="/MyTags.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485890084125" ignored="false" />
-    <file path="/main.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488345439890" ignored="false" />
-    <file path="/changePassword.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1485895829093" ignored="false" />
-    <file path="/Client.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1487429274484" ignored="false" />
-    <file path="/a.dummy" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1487425171078" ignored="false" />
-    <file path="/viewCalendar.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1487430021140" ignored="false" />
-    <file path="/Abonement.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488477456140" ignored="false" />
-    <file path="/Abonements.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488500498132" ignored="false" />
-    <file path="/newAbonement.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488503364945" ignored="false" />
-    <file path="/viewClient.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488511210070" ignored="false" />
-    <file path="/ReportTags.java" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488508967320" ignored="false" />
-    <file path="/11_pdf_plugin.html" changelist="db396d55-3e94-483f-b461-e219a063c5a8" time="1488518569070" ignored="false" />
+    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488922389171" ignored="false" />
+    <file path="/viewClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488916150578" ignored="false" />
+    <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488911045937" ignored="false" />
+    <file path="/dhtmlxcombo.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488885332281" ignored="false" />
+    <file path="/base.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488884821906" ignored="false" />
+    <file path="/rooms.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488888839687" ignored="false" />
+    <file path="/Administrator.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488920631859" ignored="false" />
+    <file path="/menu.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488889091984" ignored="false" />
+    <file path="/Application.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488920422750" ignored="false" />
+    <file path="/clients.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488899278250" ignored="false" />
+    <file path="/index.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488898134578" ignored="false" />
+    <file path="/newAbonement.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488891852312" ignored="false" />
+    <file path="/newClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488897573484" ignored="false" />
+    <file path="/fragment.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488895344406" ignored="false" />
+    <file path="/User.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488897335359" ignored="false" />
+    <file path="/messages.ru" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488897507375" ignored="false" />
+    <file path="/Client.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488898102703" ignored="false" />
+    <file path="/ReportTags.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488921147875" ignored="false" />
+    <file path="/dhtmlxscheduler.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488911157171" ignored="false" />
+    <file path="/FitnesRecord.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488911593203" ignored="false" />
+    <file path="/Trainer.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488922122484" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +41,41 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <line_breakpoints>
+      <breakpoint url="file://D:/Program Files/play-1.4.4/framework/src/play/templates/GroovyTemplate.java" line="167" class="play.templates.GroovyTemplate" package="play.templates">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </line_breakpoints>
+    <method_breakpoints>
+      <breakpoint url="jar://D:/Program Files/play-1.4.4/framework/lib/groovy-all-2.4.7.jar!/org/codehaus/groovy/control/CompilationUnit.class" line="105" class="org.codehaus.groovy.control.CompilationUnit" package="org.codehaus.groovy.control">
+        <option name="WATCH_ENTRY" value="true" />
+        <option name="WATCH_EXIT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </method_breakpoints>
+    <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -85,7 +109,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -95,37 +118,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="dhtmlxcombo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/codebase/dhtmlxCombo/dhtmlxcombo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="838" column="5" selection-start="26964" selection-end="26964" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewClient.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Administrator/viewClient.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="24" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="korts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Administrator/korts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="44" selection-start="788" selection-end="788" vertical-scroll-proportion="-9.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="167" column="30" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Administrator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Administrator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="54" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#928#944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trainer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="56" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.43055555">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="viewClient.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Trainer/viewClient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
+            <state line="126" column="137" selection-start="6186" selection-end="6186" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/data.yml">
+      <file leaf-file-name="ReportTags.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tags/ReportTags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trainer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="28" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="18_combo_select_from_db.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Downloads/Архивы/dhtmlxScheduler_v4.4.0/samples/02_customization/18_combo_select_from_db.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="64" selection-start="1430" selection-end="1434" vertical-scroll-proportion="0.0">
+            <state line="178" column="101" selection-start="6276" selection-end="6276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,25 +205,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Application/register.html" />
-        <option value="$PROJECT_DIR$/app/views/Client/viewCalendar.html" />
-        <option value="$PROJECT_DIR$/app/views/Trainer/newClient.html" />
-        <option value="$PROJECT_DIR$/app/models/Abonement.java" />
-        <option value="$PROJECT_DIR$/app/views/Abonements/newAbonement.html" />
-        <option value="$PROJECT_DIR$/app/views/Abonements/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Administrator/index.html" />
-        <option value="$PROJECT_DIR$/public/codebase/locale/locale_ru.js" />
-        <option value="$PROJECT_DIR$/app/controllers/Abonements.java" />
-        <option value="$PROJECT_DIR$/app/tags/ReportTags.java" />
+        <option value="$PROJECT_DIR$/app/models/User.java" />
+        <option value="$PROJECT_DIR$/conf/messages.ru" />
+        <option value="$PROJECT_DIR$/app/views/Application/newClient.html" />
+        <option value="$PROJECT_DIR$/app/views/Client/viewAbonements.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Client.java" />
+        <option value="$PROJECT_DIR$/app/views/Client/index.html" />
+        <option value="$PROJECT_DIR$/app/views/Administrator/clients.html" />
         <option value="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" />
-        <option value="$PROJECT_DIR$/app/controllers/Trainer.java" />
-        <option value="$PROJECT_DIR$/public/codebase/api.js" />
-        <option value="C:/Downloads/Архивы/dhtmlxScheduler_v4.4.0/samples/03_extensions/11_pdf_plugin.html" />
+        <option value="$PROJECT_DIR$/public/codebase/dhtmlxCombo/dhtmlxcombo.js" />
+        <option value="$PROJECT_DIR$/app/models/FitnesRecord.java" />
+        <option value="$PROJECT_DIR$/app/views/Administrator/viewClient.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Administrator.java" />
+        <option value="$PROJECT_DIR$/app/tags/ReportTags.java" />
         <option value="$PROJECT_DIR$/app/views/Trainer/viewClient.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Trainer.java" />
       </list>
     </option>
   </component>
@@ -175,7 +250,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -194,7 +269,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,8 +286,18 @@
               <option name="myItemId" value="fitnes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -245,7 +329,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -253,7 +337,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,7 +351,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -289,7 +373,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dhtmlxCombo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -307,7 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,7 +439,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -347,7 +457,133 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abonements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -369,7 +605,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -391,7 +627,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ska" />
+              <option name="myItemId" value="checkout2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -403,44 +639,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fitnes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fitnes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RESOURCE_BUNDLE_SPLITTER_PROPORTION" value="0.5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Мои документы/Downloads/groovy-all-2.4.7-sources.jar!/" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\play_work\source\ska\app\views\Client" />
-      <recent name="C:\play_work\source\ska\app\views\Application" />
-      <recent name="C:\play_work\source\ska\app\views\Admin" />
-      <recent name="C:\play_work\source\ska\app\views\Administrator" />
+      <recent name="C:\play_work\checkout2\app\views\Administrator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\play_work\checkout2\app\views\Application" />
     </key>
   </component>
   <component name="RunManager" selected="Remote.Unnamed">
@@ -456,19 +687,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -497,6 +715,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -535,13 +766,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -565,41 +789,65 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db396d55-3e94-483f-b461-e219a063c5a8" name="Default" comment="" />
-      <created>1485621332046</created>
-      <updated>1485621332046</updated>
+      <changelist id="b697678f-d04e-4319-8781-e3e01819b8f7" name="Default" comment="" />
+      <created>1488876186953</created>
+      <updated>1488876186953</updated>
     </task>
+    <task id="LOCAL-00001" summary="update work with abonements">
+      <created>1488922523375</created>
+      <updated>1488922523375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1022" height="733" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43992934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.8854167" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55123675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34194216" sideWeight="0.5600707" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.44876325" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -640,7 +888,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="update work with abonements" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -653,115 +901,202 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="update work with abonements" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/codebase/locale/locale_ru.js">
+    <entry file="file://$PROJECT_DIR$/app/views/Client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="202" selection-start="998" selection-end="998" vertical-scroll-proportion="0.07083333" />
+        <state line="10" column="50" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Administrator/index.html">
+    <entry file="jar://$USER_HOME$/Мои документы/Downloads/groovy-all-2.4.7-sources.jar!/org/codehaus/groovy/control/CompilationUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="71" selection-start="2199" selection-end="2199" vertical-scroll-proportion="-27.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Downloads/Архивы/dhtmlxScheduler_v4.4.0/samples/03_extensions/06_links_plugin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="117" selection-start="335" selection-end="448" vertical-scroll-proportion="-4.8846154" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="22" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.14594595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Abonement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="551" selection-end="551" vertical-scroll-proportion="0.33888888">
+        <state line="566" column="0" selection-start="21483" selection-end="21483" vertical-scroll-proportion="0.72529644">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Abonements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="1136" selection-end="1142" vertical-scroll-proportion="0.19354838">
+        <state line="12" column="0" selection-start="274" selection-end="318" vertical-scroll-proportion="0.37777779">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tags/ReportTags.java">
+    <entry file="file://$PROJECT_DIR$/app/views/Administrator/clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="43" selection-start="6129" selection-end="6139" vertical-scroll-proportion="0.0">
+        <state line="11" column="31" selection-start="233" selection-end="233" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Downloads/Архивы/dhtmlxScheduler_v4.4.0/samples/02_customization/15_combo_select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="358" selection-end="571" vertical-scroll-proportion="0.27145708" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2651" column="73" selection-start="174996" selection-end="175000" vertical-scroll-proportion="-12.692307" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/codebase/sources/dhtmlxscheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3850" column="10" selection-start="110412" selection-end="110412" vertical-scroll-proportion="0.33206832" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Downloads/Архивы/dhtmlxScheduler_v4.4.0/samples/03_extensions/11_pdf_plugin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="158" selection-end="174" vertical-scroll-proportion="0.17708333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/codebase/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="45" selection-start="7213" selection-end="7213" vertical-scroll-proportion="0.09677419" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="28" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Downloads/Архивы/dhtmlxScheduler_v4.4.0/samples/02_customization/18_combo_select_from_db.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="64" selection-start="1430" selection-end="1434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Trainer/viewClient.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/data.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/Trainer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Administrator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/FitnesRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="76" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2479" column="56" selection-start="163571" selection-end="163571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/codebase/dhtmlxCombo/dhtmlxcombo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="838" column="5" selection-start="26964" selection-end="26964" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Administrator/viewClient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="24" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Administrator/korts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="788" selection-end="788" vertical-scroll-proportion="-9.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="30" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="54" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#928#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tags/ReportTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="101" selection-start="6276" selection-end="6276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Trainer/viewClient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="137" selection-start="6186" selection-end="6186" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="56" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.43055555">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ProjectJDKs.UI">
+      <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fitnes</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-all-2.4.7-sources</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
