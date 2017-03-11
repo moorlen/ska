@@ -29,6 +29,7 @@
     <file path="/Trainer.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489259559062" ignored="false" />
     <file path="/JPAPaginator.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489259642140" ignored="false" />
     <file path="/JPARecordLocatorStrategy.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489260120781" ignored="false" />
+    <file path="/application.conf" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489265631546" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
       <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="1" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.87826085">
+            <state line="97" column="0" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.45217392">
               <folding />
             </state>
           </provider>
@@ -656,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="1" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.87826085">
+        <state line="97" column="0" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.45217392">
           <folding />
         </state>
       </provider>
