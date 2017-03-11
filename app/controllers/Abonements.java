@@ -13,7 +13,6 @@ import play.data.validation.Valid;
 import play.modules.paginate.ValuePaginator;
 import play.mvc.Controller;
 import utils.AbonementComporator;
-import utils.UserComporator;
 
 /**
  * @author moorlen

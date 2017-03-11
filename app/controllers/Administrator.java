@@ -1,9 +1,8 @@
 package controllers;
 
 import models.*;
-import utils.UserComporator;
-
 import play.modules.paginate.ValuePaginator;
+import utils.UserComporator;
 
 import java.util.*;
 

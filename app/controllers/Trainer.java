@@ -1,18 +1,12 @@
 package controllers;
 
-import static controllers.Administrator.index;
-
 import java.util.Collections;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
 import models.Abonement;
 import models.FitnesRecord;
 import models.User;
-import play.data.validation.Valid;
 import play.modules.paginate.ValuePaginator;
-import play.mvc.Controller;
 import utils.UserComporator;
 
 public class Trainer extends Application {
@@ -49,8 +43,11 @@ public class Trainer extends Application {
 
     public static void saveEvent(String startDate, String endDate, String text, String id, String price, String currentDate, String currentMode, String abonement) {
         FitnesRecord record = FitnesRecord.findById(new Long(id));
+        String oldAbonement = null;
         if (record == null) {
             record = new FitnesRecord();
+        } else {
+            oldAbonement = record.abonementNumber;
         }
         record.startDate = startDate;
         record.endDate = endDate;
@@ -62,6 +59,11 @@ public class Trainer extends Application {
         if ((abonement != null) && (!"".equals(abonement))) {
             Abonement byNumber = Abonement.find("byNumber", abonement).first();
             byNumber.ostatok--;
+            byNumber.save();
+        }
+        if ((oldAbonement != null) && (!"".equals(oldAbonement))) {
+            Abonement byNumber = Abonement.find("byNumber", oldAbonement).first();
+            byNumber.ostatok++;
             byNumber.save();
         }
         record.abonementNumber = abonement;
