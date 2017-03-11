@@ -126,7 +126,7 @@
       <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="0" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.64927536">
+            <state line="97" column="112" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.45217392">
               <folding />
             </state>
           </provider>
@@ -657,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="3254" selection-end="3254" vertical-scroll-proportion="0.64927536">
+        <state line="97" column="112" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.45217392">
           <folding />
         </state>
       </provider>
