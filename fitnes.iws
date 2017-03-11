@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489261392796" ignored="false" />
     <file path="/viewClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488916150578" ignored="false" />
-    <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489262358093" ignored="false" />
+    <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489264610328" ignored="false" />
     <file path="/dhtmlxcombo.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488885332281" ignored="false" />
     <file path="/base.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488884821906" ignored="false" />
     <file path="/rooms.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488888839687" ignored="false" />
@@ -125,7 +125,7 @@
       <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="72" selection-start="3287" selection-end="3287" vertical-scroll-proportion="0.45540798">
+            <state line="99" column="1" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.87826085">
               <folding />
             </state>
           </provider>
@@ -172,7 +172,7 @@
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1022" />
-    <option name="height" value="733" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -459,13 +459,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1022" height="733" extended-state="0" />
+    <frame x="1" y="1" width="1022" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55123675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,7 +479,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24896695" sideWeight="0.6731449" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24896695" sideWeight="0.67486817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -549,13 +549,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="707" column="12" selection-start="32226" selection-end="32226" vertical-scroll-proportion="0.33233532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/play-1.4.4/modules/paginate-0.12/src/play/modules/paginate/strategy/ByKeyRecordLocatorStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="31" selection-start="942" selection-end="942" vertical-scroll-proportion="0.33239436">
@@ -654,9 +647,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.3774648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="72" selection-start="3287" selection-end="3287" vertical-scroll-proportion="0.45540798">
+        <state line="99" column="1" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.87826085">
           <folding />
         </state>
       </provider>
