@@ -3,14 +3,13 @@ package controllers;
 import java.util.Collections;
 
 import play.data.validation.Valid;
-import play.mvc.Controller;
 import models.*;
-import play.modules.paginate.ValuePaginator;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import play.modules.paginate.ValuePaginator;
 import utils.LoginComporator;
 
 public class Admin extends Application {
