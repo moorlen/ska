@@ -3,3 +3,8 @@
 09:32:40,234 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
 09:32:53,109 INFO  ~ Connected to jdbc:mysql://localhost:3306/fitnes?characterEncoding=UTF-8 for default
 09:32:56,500 INFO  ~ Application 'fitnes' is now started !
+14:18:50,859 INFO  ~ Starting c:\play_work\checkout2
+14:18:55,062 WARN  ~ You're running Play! in DEV mode
+14:18:56,468 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+14:19:17,062 INFO  ~ Connected to jdbc:mysql://localhost:3306/fitnes?characterEncoding=UTF-8 for default
+14:19:20,390 INFO  ~ Application 'fitnes' is now started !
