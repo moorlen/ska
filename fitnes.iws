@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b697678f-d04e-4319-8781-e3e01819b8f7" name="Default" comment="update work with abonements">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnes.iws" afterPath="$PROJECT_DIR$/fitnes.iws" />
     </list>
     <ignored path="fitnes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489261392796" ignored="false" />
+    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489992714000" ignored="false" />
     <file path="/viewClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488916150578" ignored="false" />
     <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489264610328" ignored="false" />
     <file path="/dhtmlxcombo.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488885332281" ignored="false" />
@@ -29,7 +30,7 @@
     <file path="/Trainer.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489259559062" ignored="false" />
     <file path="/JPAPaginator.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489259642140" ignored="false" />
     <file path="/JPARecordLocatorStrategy.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489260120781" ignored="false" />
-    <file path="/application.conf" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489265631546" ignored="false" />
+    <file path="/application.conf" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489268156593" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,22 +80,6 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://D:/Program Files/play-1.4.4/framework/src/play/templates/GroovyTemplate.java" line="167" class="play.templates.GroovyTemplate" package="play.templates">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </line_breakpoints>
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="jar://D:/Program Files/play-1.4.4/framework/lib/groovy-all-2.4.7.jar!/org/codehaus/groovy/control/CompilationUnit.class" line="105" class="org.codehaus.groovy.control.CompilationUnit" package="org.codehaus.groovy.control">
         <option name="WATCH_ENTRY" value="true" />
@@ -113,6 +98,22 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </method_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://D:/Program Files/play-1.4.4/framework/src/play/templates/GroovyTemplate.java" line="167" class="play.templates.GroovyTemplate" package="play.templates">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -123,10 +124,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="112" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.45217392">
+            <state line="69" column="13" selection-start="2150" selection-end="2153" vertical-scroll-proportion="-6.423077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,9 +181,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
-    <option name="y" value="1" />
     <option name="width" value="1022" />
-    <option name="height" value="736" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -203,7 +212,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,27 +263,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fitnes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fitnes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +370,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -460,13 +451,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1022" height="736" extended-state="0" />
+    <frame x="1" y="0" width="1022" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55123675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -484,6 +474,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -550,114 +541,87 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files/play-1.4.4/modules/paginate-0.12/src/play/modules/paginate/strategy/ByKeyRecordLocatorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="942" selection-end="942" vertical-scroll-proportion="0.33239436">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/play-1.2.4/modules/paginate-0.12/src/play/modules/paginate/Paginator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="320" column="19" selection-start="8795" selection-end="8795" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/play-paginate.jar!/play/modules/paginate/ValuePaginator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.2681388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/dependencies.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="48" selection-end="48" vertical-scroll-proportion="0.1915493">
-          <folding />
-        </state>
+        <state line="4" column="32" selection-start="48" selection-end="48" vertical-scroll-proportion="0.1915493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="104" selection-end="104" vertical-scroll-proportion="0.13450292">
-          <folding />
-        </state>
+        <state line="5" column="21" selection-start="104" selection-end="104" vertical-scroll-proportion="0.13450292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Administrator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.1491228">
-          <folding />
-        </state>
+        <state line="3" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.1491228" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="30" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.049707603">
-          <folding />
-        </state>
+        <state line="167" column="30" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.049707603" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="111" selection-end="111" vertical-scroll-proportion="0.1915493">
+        <state line="4" column="44" selection-start="111" selection-end="111" vertical-scroll-proportion="0.1915493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.12592593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Abonements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="340" selection-end="340" vertical-scroll-proportion="0.062962964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="462" selection-end="462" vertical-scroll-proportion="0.3607595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/changePassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="738" selection-end="738" vertical-scroll-proportion="0.3586626" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Admin/newUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="469" selection-end="469" vertical-scroll-proportion="0.443038" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.3774648" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/play-paginate.jar!/play/modules/paginate/ValuePaginator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="386" selection-end="386" vertical-scroll-proportion="0.33730158">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="193" selection-end="193" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.12592593">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Abonements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="340" selection-end="340" vertical-scroll-proportion="0.062962964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="462" selection-end="462" vertical-scroll-proportion="0.3607595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/changePassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="738" selection-end="738" vertical-scroll-proportion="0.3586626">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Admin/newUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="469" selection-end="469" vertical-scroll-proportion="0.443038">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.3774648">
-          <folding />
+        <state line="18" column="39" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="112" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.45217392">
+        <state line="69" column="13" selection-start="2150" selection-end="2153" vertical-scroll-proportion="-6.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
