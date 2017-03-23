@@ -301,3 +301,8 @@ play.exceptions.CompilationException: Syntax error, insert ") Statement" to comp
 	at play.Play.detectChanges(Play.java:641)
 	at play.Invoker$Invocation.init(Invoker.java:209)
 	at Invocation.HTTP Request(Play!)
+04:27:21,734 INFO  ~ Starting c:\play_work\checkout2
+04:27:24,406 WARN  ~ You're running Play! in DEV mode
+04:27:25,375 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+04:27:43,406 INFO  ~ Connected to jdbc:mysql://localhost:3306/fitnes?characterEncoding=UTF-8 for default
+04:27:46,734 INFO  ~ Application 'fitnes' is now started !
