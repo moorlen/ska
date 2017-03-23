@@ -28,13 +28,20 @@
 <body>
 <div id="header">
     <h1>Фитнес клуб демо</h1>
-#{if user?.id}
+
     <div id="options">
+    #{if user?.id}
+
         Вошли как ${user.login}
         <a href="@{Application.logout()}">Выйти</a>
         <a href="@{Application.changePassword()}">Сменить пароль</a>
+
+    #{/if}
+    #{else}
+        <a href="@{Application.loginForm()}">Войти</a>
+        <a href="@{Application.register()}">Зарегестрироваться</a>
+    #{/else}
     </div>
-#{/if}
 </div>
 
 <div id="content">

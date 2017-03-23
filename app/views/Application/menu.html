@@ -1,28 +1,28 @@
 #{extends 'main.html' /}
-#{set title:'Администратор' /}
+#{set title:'Главная' /}
 
 <div id="login">
     <table id="menu">
         <tbody>
         <tr>
             <td><img src="/public/images/universal.jpg"></img></td>
-            <td><a href="@{Administrator.choiceObject("universal")}">Универсальный зал</a></td>
+            <td><a href="@{viewCalendar("universal")}">Универсальный зал</a></td>
         </tr>
         <tr>
             <td><img src="/public/images/handbol.jpg"></img></td>
-            <td><a href="@{Administrator.choiceObject("handbool")}">Гандбольная площадка</a></td>
+            <td><a href="@{viewCalendar("handbool")}">Гандбольная площадка</a></td>
         </tr>
         <tr>
             <td><img src="/public/images/korts.jpg"></img></td>
-            <td><a href="@{Administrator.korts()}">Игровая площадка</a></td>
+            <td><a href="@{korts()}">Игровая площадка</a></td>
         </tr>
         <tr>
             <td><img src="/public/images/sauna.jpg"></img></td>
-            <td><a href="@{Administrator.choiceObject("sauna")}">Сауна</a></td>
+            <td><a href="@{viewCalendar("sauna")}">Сауна</a></td>
         </tr>
         <tr>
             <td></td>
-            <td><a href="@{Administrator.rooms()}">Назад</a></td>
+            <td><a href="@{roomsOrIndex()}">Назад</a></td>
         </tr>
         </tbody>
     </table>

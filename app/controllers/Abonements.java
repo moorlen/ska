@@ -11,13 +11,12 @@ import models.Abonement;
 import models.User;
 import play.data.validation.Valid;
 import play.modules.paginate.ValuePaginator;
-import play.mvc.Controller;
 import utils.AbonementComporator;
 
 /**
  * @author moorlen
  */
-public class Abonements extends Controller {
+public class Abonements extends Application {
 
     private static SecureRandom random = new SecureRandom();
 

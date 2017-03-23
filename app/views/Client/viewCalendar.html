@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/public/codebase/dhtmlxscheduler.css" type="text/css" media="screen" title="no title"
           charset="utf-8">
     <script src="/public/codebase/locale/locale_ru.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/public/codebase/ext/dhtmlxscheduler_active_links.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/public/codebase/api.js" type="text/javascript" charset="utf-8"></script>
 #{set title:'Administrator' /}
 </head>
 
@@ -47,7 +49,7 @@
         scheduler.config.buttons_left = ["dhx_cancel_btn"];
         scheduler.config.buttons_right = [];
         scheduler.init('scheduler_here', ${currentDate}, "${currentMode}");
-    #{schedulerParse objectId: "${client.login}"/}
+    #{schedulerParse objectId: "${client.login}", userId: "${user?.type}" /}
     }
 </script>
 
@@ -67,11 +69,17 @@
 <body onload="init();">
 <div style='height:20px; padding:5px 10px;'>
     <input type="button" name="cancel" value="Назад" style="right:300px;" onclick="cancel()"/>
+    <!--a onclick="print()" style="left:300px;"/><img src="/public/images/print_pdf.jpg"/></a-->
     <label style="text-align:center;margin-left: 350px;font-size: 18px;">${client.firstName} ${client.lastName} ${client.thirdName}</label>
     <script>
         function cancel() {
             var action = #{jsAction @Client.index()/};
             document.location = action();
+        }
+        ;
+
+        function print() {
+            scheduler.exportToPdf();
         }
         ;
 

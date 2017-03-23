@@ -8,3 +8,296 @@
 14:18:56,468 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
 14:19:17,062 INFO  ~ Connected to jdbc:mysql://localhost:3306/fitnes?characterEncoding=UTF-8 for default
 14:19:20,390 INFO  ~ Application 'fitnes' is now started !
+16:01:01,531 INFO  ~ Starting c:\play_work\checkout2
+16:01:07,531 WARN  ~ You're running Play! in DEV mode
+16:01:09,312 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+16:01:56,125 INFO  ~ Connected to jdbc:mysql://localhost:3306/fitnes?characterEncoding=UTF-8 for default
+16:02:20,781 INFO  ~ Application 'fitnes' is now started !
+16:13:11,687 INFO  ~ Restart: Signature change !
+16:13:14,984 ERROR ~ 
+
+@73dod6952
+Internal Server Error (500) for request GET /
+
+Template compilation error (In /app/views/main.html around line 38)
+The template /app/views/main.html does not compile : #{else} is not closed.
+
+play.exceptions.TemplateCompilationException: #{else} is not closed.
+	at play.templates.TemplateCompiler.generate(TemplateCompiler.java:104)
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:15)
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:39)
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:85)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:180)
+	at play.templates.FastTags._extends(FastTags.java:394)
+	at play.templates.FastTags$_extends.call(Unknown Source)
+	at /app/views/Application/index.html.(line:1)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:255)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:203)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:28)
+	at play.mvc.Controller.renderTemplate(Controller.java:836)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.index(Application.java:54)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+16:14:13,437 ERROR ~ 
+
+@73dod6953
+Internal Server Error (500) for request GET /application/register
+
+Template execution error (In /app/views/Application/register.html around line 84)
+Execution error occurred in template /app/views/Application/register.html. Exception raised was NullPointerException : Cannot invoke method entrySet() on null object.
+
+play.exceptions.TemplateExecutionException: Cannot invoke method entrySet() on null object
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:83)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:280)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:203)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:28)
+	at play.mvc.Controller.renderTemplate(Controller.java:836)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.register(Application.java:62)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException: Cannot invoke method entrySet() on null object
+	at /app/views/Application/register.html.(line:84)
+	at play.templates.FastTags._field(FastTags.java:214)
+	at play.templates.FastTags$_field$2.call(Unknown Source)
+	at /app/views/Application/register.html.(line:82)
+	at play.templates.JavaExtensions.toString(JavaExtensions.java:65)
+	at play.templates.FastTags._form(FastTags.java:169)
+	at play.templates.FastTags$_form$1.call(Unknown Source)
+	at /app/views/Application/register.html.(line:20)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:255)
+	... 13 more
+16:15:17,078 INFO  ~ Restart: Signature change !
+16:21:05,156 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to change the schema (add/remove fields)
+17:54:09,484 INFO  ~ Restart: 2 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to change the schema (add/remove fields)
+17:54:10,390 ERROR ~ 
+
+@73dod6958
+Internal Server Error (500) for request GET /administrator/korts
+
+Template not found (In /app/controllers/Application.java around line 66)
+The template Administrator/korts.html does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : Administrator/korts.html
+	at play.mvc.Controller.renderTemplate(Controller.java:845)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.korts(Application.java:66)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+18:18:10,093 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to change the schema (add/remove fields)
+18:18:10,796 ERROR ~ 
+
+@73dod695b
+application.choiceobject action not found
+
+Action not found
+Action application.choiceobject could not be found. Error raised is No method public static void choiceobject() was found in class controllers.application
+
+play.exceptions.ActionNotFoundException: Action application.choiceobject not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:590)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:84)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: No method public static void choiceobject() was found in class controllers.application
+	... 3 more
+18:35:08,250 INFO  ~ Restart: Signature change !
+18:36:23,468 INFO  ~ Restart: Signature change !
+19:21:46,078 ERROR ~ 
+
+@73dod695d
+Internal Server Error (500) for request GET /administrator/menu
+
+Template not found (In /app/controllers/Application.java around line 60)
+The template Administrator/menu.html does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : Administrator/menu.html
+	at play.mvc.Controller.renderTemplate(Controller.java:845)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.menu(Application.java:60)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+19:22:27,000 ERROR ~ 
+
+@73dod695f
+Internal Server Error (500) for request GET /administrator/menu
+
+Template not found (In /app/controllers/Application.java around line 60)
+The template @menu does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : @menu
+	at play.mvc.Controller.renderTemplate(Controller.java:845)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.menu(Application.java:60)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+19:23:35,578 ERROR ~ 
+
+@73dod695h
+Internal Server Error (500) for request GET /administrator/viewcalendar?object=universal
+
+Template not found (In /app/controllers/Application.java around line 102)
+The template Administrator/viewCalendar.html does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : Administrator/viewCalendar.html
+	at play.mvc.Controller.renderTemplate(Controller.java:845)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.viewCalendar(Application.java:102)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+19:31:11,906 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to change the schema (add/remove fields)
+20:17:59,343 INFO  ~ Restart: 5 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to change superclass or interfaces
+20:39:34,234 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to change the schema (add/remove fields)
+20:56:58,468 INFO  ~ Restart: Signature change !
+20:57:00,046 ERROR ~ 
+
+@73dod695l
+Internal Server Error (500) for request GET /application/viewcalendar?object=universal
+
+Execution exception (In /app/tags/ReportTags.java around line 114)
+NullPointerException occurred : null
+
+play.exceptions.JavaExecutionException
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:87)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:280)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:203)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:28)
+	at play.mvc.Controller.renderTemplate(Controller.java:836)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.viewCalendar(Application.java:101)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at tags.ReportTags._schedulerParse(ReportTags.java:114)
+	at tags.ReportTags$_schedulerParse.call(Unknown Source)
+	at /app/views/Application/viewCalendar.html.(line:57)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:255)
+	... 13 more
+02:56:01,109 ERROR ~ 
+
+@73dod695m
+Internal Server Error (500) for request GET /application/viewcalendar?object=universal
+
+Template execution error (In /app/views/Application/viewCalendar.html around line 57)
+Execution error occurred in template /app/views/Application/viewCalendar.html. Exception raised was MissingMethodException : No signature of method: Template_1012.$() is applicable for argument types: (Template_1012$_run_closure1$_closure2) values: [Template_1012$_run_closure1$_closure2@13cb2b8] Possible solutions: _(java.lang.String), is(java.lang.Object), run(), run(), any(), get(java.lang.String).
+
+play.exceptions.TemplateExecutionException: No signature of method: Template_1012.$() is applicable for argument types: (Template_1012$_run_closure1$_closure2) values: [Template_1012$_run_closure1$_closure2@13cb2b8]
+Possible solutions: _(java.lang.String), is(java.lang.Object), run(), run(), any(), get(java.lang.String)
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:83)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:280)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:203)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:28)
+	at play.mvc.Controller.renderTemplate(Controller.java:836)
+	at play.mvc.Controller.renderTemplate(Controller.java:814)
+	at play.mvc.Controller.render(Controller.java:876)
+	at controllers.Application.viewCalendar(Application.java:101)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingMethodException: No signature of method: Template_1012.$() is applicable for argument types: (Template_1012$_run_closure1$_closure2) values: [Template_1012$_run_closure1$_closure2@13cb2b8]
+Possible solutions: _(java.lang.String), is(java.lang.Object), run(), run(), any(), get(java.lang.String)
+	at /app/views/Application/viewCalendar.html.(line:57)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:255)
+	... 13 more
+02:58:32,000 ERROR ~ 
+
+@73dod695n
+Internal Server Error (500) for request GET /administrator/saveevent?endDate=23-03-2017%2014:0&price=&currentDate=23-03-2017%202:58&text=not%20pay&id=1490230691641&startDate=23-03-2017%2013:0&currentMode=week
+
+Execution exception (In /app/controllers/Administrator.java around line 96)
+NumberFormatException occurred : null
+
+play.exceptions.JavaExecutionException: null
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:485)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.valueOf(Long.java:803)
+	at controllers.Administrator.saveEvent(Administrator.java:96)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	... 4 more
+03:06:58,000 ERROR ~ 
+
+@73dod695o
+Internal Server Error (500) for request GET /administrator/saveevent?endDate=23-03-2017%2010:0&price=&currentDate=23-03-2017%203:0&text=hjg&id=1490230847812&startDate=23-03-2017%209:0&currentMode=week
+
+Execution exception (In /app/controllers/Administrator.java around line 96)
+NumberFormatException occurred : null
+
+play.exceptions.JavaExecutionException: null
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:485)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:467)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:436)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.valueOf(Long.java:803)
+	at controllers.Administrator.saveEvent(Administrator.java:96)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:536)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:473)
+	... 4 more
+03:07:18,296 INFO  ~ Restart: Signature change !
+03:16:03,812 ERROR ~ 
+
+@73dod695p
+Internal Server Error (500) for request GET /application/viewcalendar?object=universal
+
+Compilation error (In /app/tags/ReportTags.java around line 132)
+The file /app/tags/ReportTags.java could not be compiled. Error raised is : Syntax error, insert ") Statement" to complete IfStatement
+
+play.exceptions.CompilationException: Syntax error, insert ") Statement" to complete IfStatement
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:264)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:480)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:300)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:288)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:317)
+	at play.Play.detectChanges(Play.java:641)
+	at play.Invoker$Invocation.init(Invoker.java:209)
+	at Invocation.HTTP Request(Play!)

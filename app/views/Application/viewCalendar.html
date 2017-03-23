@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-#{set title:'Администратор' /}
+#{set title:'Календарь' /}
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -9,6 +9,7 @@
           charset="utf-8">
     <script src="/public/codebase/locale/locale_ru.js" type="text/javascript" charset="utf-8"></script>
     <script src="/public/codebase/dhtmlxscheduler_minical.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/public/codebase/ext/dhtmlxscheduler_active_links.js" type="text/javascript" charset="utf-8"></script>
 #{set title:'Administrator' /}
 </head>
 
@@ -24,7 +25,14 @@
         scheduler.attachEvent("onClick", function () {
             return false;
         })
+
+    #{if "true".equals(fromAdministrator)}
         scheduler.config.details_on_dblclick = true;
+    #{/if}
+    #{else}
+        scheduler.config.details_on_dblclick = false;
+    #{/else}
+
         scheduler.config.dblclick_create = false;
         scheduler.config.event_duration = 60;
         scheduler.config.auto_end_date = true;
@@ -46,7 +54,7 @@
             {name: "time", height: 72, type: "calendar_time", map_to: "auto"}
         ];
         scheduler.init('scheduler_here', ${currentDate}, "${currentMode}");
-    #{schedulerParse objectId: "${session.get("choiceObject")}"/}
+    #{schedulerParse objectId: "${session.get("choiceObject")}", userId: "${user?.type}" /}
     }
 </script>
 
@@ -65,7 +73,9 @@
 
 <body onload="init();">
 <div style='height:20px; padding:5px 10px;'>
-    <input type="button" name="add" value="Добавить" style="right:300px;" onclick="addData()"/>
+    #{if "true".equals(fromAdministrator)}
+        <input type="button" name="add" value="Добавить" style="right:300px;" onclick="addData()"/>
+    #{/if}
     <input type="button" name="cancel" value="Назад" style="right:300px;" onclick="cancel()"/>
     <label style="text-align:center;margin-left: 350px;font-size: 18px;">${choiceObject}</label>
     <script>
@@ -90,10 +100,10 @@
 
         function cancel() {
             var choice = "${session.get("choiceObject")}";
-            if (new String(choice.valueOf().includes(new String("play").valueOf()))) {
-                var action = #{jsAction @Administrator.korts()/};
+            if (choice.indexOf("play") !== -1) {
+                var action = #{jsAction @korts()/};
             } else {
-                var action = #{jsAction @Administrator.menu()/};
+                var action = #{jsAction @menu()/};
             }
             document.location = action();
         }

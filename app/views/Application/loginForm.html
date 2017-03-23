@@ -1,0 +1,51 @@
+#{extends 'main.html' /}
+#{set title:'Главная' /}
+
+<div id="login">
+
+#{form @login()}
+    <table>
+        <tbody>
+        <tr>
+            <th>Логин:</th>
+            <td>
+                <p class="field">
+                    #{field 'login'}
+                        <input type="text" name="login" size="19" value="${flash.login}"/>
+                    #{/field}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <th>Пароль:</th>
+            <td>
+                #{field 'password'}
+                    <input type="password" name="password" size="19"/>
+                #{/field}
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Войти"/>
+            </td>
+            <td>
+                <input type="button" onclick="cancel()" value="Назад"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+#{/form}
+</div>
+
+<script>
+    function cancel() {
+        var action = #{jsAction @index() /};
+        document.location = action();
+    }
+    ;
+</script>
+
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>

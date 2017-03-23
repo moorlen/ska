@@ -111,7 +111,7 @@
         ;
 
         function cancel() {
-            var action = #{jsAction @Application.index()/};
+            var action = #{jsAction @Administrator.clients()/};
             document.location = action();
         }
         ;

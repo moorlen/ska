@@ -14,7 +14,6 @@ import utils.LoginComporator;
 
 public class Admin extends Application {
     public static void index() {
-        session.put("calledController", "SuperAdmin");
         List<User> users = User.find("select distinct u from User u  where not u.type ='superadmin'").fetch();
         Collections.sort(users, new LoginComporator());
         ValuePaginator allUser = new ValuePaginator(users);

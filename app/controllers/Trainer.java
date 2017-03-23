@@ -13,7 +13,6 @@ public class Trainer extends Application {
     public static void index() {
         session.put("currentDate", "");
         session.put("currentMode", "");
-        session.put("calledController", "Trainer");
         List<User> users = User.find("byType", "client").fetch();
         Collections.sort(users, new UserComporator());
         ValuePaginator allUser = new ValuePaginator(users);

@@ -111,6 +111,7 @@ public class ReportTags extends FastTags {
         Connection dbConnection = null;
         Statement statement = null;
         String id = args.get("objectId").toString();
+        Object userId = args.get("userId");
         if (id != null) {
             try {
                 dbConnection = getDBConnection();
@@ -128,11 +129,17 @@ public class ReportTags extends FastTags {
                     html.append("id: \"" + rs.getString("id") + "\", ");
                     html.append("start_date: \"" + rs.getString("startDate") + "\", ");
                     html.append("end_date: \"" + rs.getString("endDate") + "\", ");
-                    html.append("text: \"" + rs.getString("text") + "\", ");
+                    if (!"null".equals(userId.toString())) {
+                        html.append("text: \"" + rs.getString("text") + "\", ");
+                    }
                     html.append("combo_select_abonement: \"" + abonementNumber + "\", ");
                     html.append("combo_select_kort: \"" + rs.getString("type") + "\", ");
-                    html.append("details: \"" + price + "\"");
-                    if ((price == null || price == 0) && (abonementNumber == "")) {
+                    if (("".equals(abonementNumber)) || (abonementNumber == null)) {
+                        html.append("details: \"" + price + "\"");
+                    } else {
+                        html.append("details: \"" + "по абонименту " + abonementNumber + "\"");
+                    }
+                    if ((!"null".equals(userId.toString())) && (price == null || price == 0) && (("".equals(abonementNumber)) || (abonementNumber == null))) {
                         html.append(",color: \"red\"");
                     }
                     html.append("}");

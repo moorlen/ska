@@ -808,7 +808,7 @@ window.dhtmlXScheduler = window.scheduler = {version: "4.4.0"}, window.dhtmlx ||
                 case"dhx_cal_event_clear":
                     var a = this._locate_event(t);
                     if (!this.callEvent("onDblClick", [a, e]))return;
-                    this.config.details_on_dblclick || this._table_view || !this.getEvent(a)._timed || !this.config.select ? this.showLightbox(a) : this.edit(a);
+                    this.config.details_on_dblclick || !this.getEvent(a)._timed || !this.config.select ? this.showLightbox(a) : this.edit(a);
                     break;
                 case"dhx_time_block":
                 case"dhx_cal_container":
@@ -2669,7 +2669,7 @@ window.dhtmlXScheduler = window.scheduler = {version: "4.4.0"}, window.dhtmlx ||
         }), !a) {
             var r = scheduler.config.minicalendar;
             r && (r.padding = 14), scheduler.templates.event_bar_date = function (e, t, i) {
-                return"вЂў <b>" + scheduler.templates.event_date(e) + "</b> "
+                return"* <b>" + scheduler.templates.event_date(e) + "-" + scheduler.templates.event_date(t) + "</b> "
             }, scheduler.attachEvent("onTemplatesReady", function () {
                 var e = scheduler.date.date_to_str("%d");
                 scheduler.templates._old_month_day || (scheduler.templates._old_month_day = scheduler.templates.month_day);

@@ -2,37 +2,26 @@
 #{set title:'Главная' /}
 
 <div id="login">
-
-#{form @login()}
-    <table>
+    <table id="menu">
         <tbody>
         <tr>
-            <th>Логин:</th>
-            <td>
-                <p class="field">
-                    #{field 'login'}
-                        <input type="text" name="login" size="19" value="${flash.login}"/>
-                    #{/field}
-                </p>
-            </td>
+            <td><img src="/public/images/universal.jpg"></img></td>
+            <td><a href="@{viewCalendar("universal")}">Универсальный зал</a></td>
         </tr>
         <tr>
-            <th>Пароль:</th>
-            <td>
-                #{field 'password'}
-                    <input type="password" name="password" size="19"/>
-                #{/field}
-            </td>
+            <td><img src="/public/images/handbol.jpg"></img></td>
+            <td><a href="@{viewCalendar("handbool")}">Гандбольная площадка</a></td>
         </tr>
-
         <tr>
-            <td>
-                <input type="submit" value="Войти"/>
-            </td>
+            <td><img src="/public/images/korts.jpg"></img></td>
+            <td><a href="@{korts()}">Игровая площадка</a></td>
+        </tr>
+        <tr>
+            <td><img src="/public/images/sauna.jpg"></img></td>
+            <td><a href="@{viewCalendar("sauna")}">Сауна</a></td>
         </tr>
         </tbody>
     </table>
-#{/form}
 </div>
 
 <script type="text/javascript" charset="${_response_encoding}">
