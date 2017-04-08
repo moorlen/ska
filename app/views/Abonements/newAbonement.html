@@ -63,6 +63,18 @@
         </td>
     </tr>
     <tr>
+        <th>Описание:</th>
+        <td>
+            #{field 'abonement.description'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}"
+                           value="${abonement?.description}"/>
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
         <th>Количество посещений:</th>
         <td>
             #{field 'abonement.count'}

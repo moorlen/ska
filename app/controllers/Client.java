@@ -3,6 +3,7 @@ package controllers;
 import models.Abonement;
 import models.User;
 import play.modules.paginate.ValuePaginator;
+import services.UserPool;
 import utils.AbonementComporator;
 
 import java.util.Collections;
@@ -10,6 +11,7 @@ import java.util.List;
 
 public class Client extends Application {
     public static void index() {
+        UserPool.get().join(connected().login);
         render();
     }
 

@@ -5,11 +5,13 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
     <script src="@{'/public/codebase/dhtmlxscheduler.js'}" type="text/javascript" charset="utf-8"></script>
-    <link rel="stylesheet" href="@{'/public/codebase/dhtmlxscheduler.css'}" type="text/css" media="screen" title="no title"
+    <link rel="stylesheet" href="@{'/public/codebase/dhtmlxscheduler.css'}" type="text/css" media="screen"
+          title="no title"
           charset="utf-8">
     <script src="@{'/public/codebase/locale/locale_ru.js'}" type="text/javascript" charset="utf-8"></script>
     <script src="@{'/public/codebase/dhtmlxscheduler_minical.js'}" type="text/javascript" charset="utf-8"></script>
-    <script src="@{'/public/codebase/ext/dhtmlxscheduler_active_links.js'}" type="text/javascript" charset="utf-8"></script>
+    <script src="@{'/public/codebase/ext/dhtmlxscheduler_active_links.js'}" type="text/javascript"
+            charset="utf-8"></script>
     <script src="@{'/public/codebase/dhtmlxCombo/dhtmlxcombo.js'}"></script>
     <script src="@{'/public/codebase/dhtmlxCommon/dhtmlxcommon.js'}"></script>
     <script src="@{'/public/codebase/ext/dhtmlxscheduler_editors.js'}" type="text/javascript" charset="utf-8"></script>
@@ -39,7 +41,8 @@
 
         scheduler.locale.labels.section_type = "Оплачено";
         scheduler.locale.labels.section_abonement = "Абонимент";
-        scheduler.locale.labels.section_kort = "Игорвая площадка";
+        scheduler.locale.labels.section_targets = "Объект";
+        scheduler.locale.labels.section_deleteTime = "Когда удалить, ч";
 
         scheduler.attachEvent("onEventSave", function (id, ev) {
             if (!ev.text) {
@@ -48,26 +51,54 @@
             }
             return true;
         });
-        var korts = [
-            {key: "play1", label: 'Корт 1'},
-            {key: "play2", label: 'Корт 2'},
-            {key: "play3", label: 'Корт 3'},
-            {key: "play4", label: 'Корт 4'}
+        var targets = [
+            {key: 'universal', label: 'Универсальный зал'},
+            {key: 'handbool', label: 'Гандбольная площадка'},
+            {key: 'sauna', label: 'Сауна'},
+            {key: 'fitnes', label: 'Тренажерный зал'},
+            {key: 'play1', label: 'Корт 1'},
+            {key: 'play2', label: 'Корт 2'},
+            {key: 'play3', label: 'Корт 3'},
+            {key: 'play4', label: 'Корт 4'}
         ];
 
-    #{abonementsParse objectId: "${client.id}", type: 'kort'/}
+    #{abonementsParse objectId: "${client.id}"/}
+
+        var update_select_options = function (select, options) {
+            select.options.length = 0;
+            for (var i = 0; i < options.length; i++) {
+                var option = options[i];
+                select[i] = new Option(option.label, option.key);
+            }
+        };
+
+        var targets_onchange = function (event) {
+            var new_abonement = abonements[this.value];
+            update_select_options(scheduler.formSection('abonement').control, new_abonement);
+        };
+
+        scheduler.attachEvent("onBeforeLightbox", function (id) {
+            var ev = scheduler.getEvent(id);
+            if (ev.combo_select_abonement) {
+                var object_id = ev.combo_select_targets || targets[0].key;
+                var new_abonement = abonements[object_id];
+                update_select_options(scheduler.formSection('abonement').control, new_abonement);
+            }
+            return true;
+        });
 
         scheduler.config.lightbox.sections = [
-            {name: "description", height: 130, map_to: "text", type: "textarea", focus: true},
-            {name: "kort", options: korts, map_to: "combo_select_kort", type: "combo", filtering: true},
-            {name: "abonement", options: abonements, map_to: "combo_select_abonement", type: "combo", filtering: true},
+            {name: "description", height: 130, map_to: "text", type: "textarea", default_value: '${client.firstName} ${client.lastName} ${client.thirdName}', focus: true, },
+            {name: "targets", options: targets, map_to: "combo_select_targets", type: "select", filtering: true, onchange: targets_onchange },
+            {name: "abonement", options: abonements, map_to: "combo_select_abonement", type: "select", filtering: true},
             {name: "type", height: 40, type: "textarea", map_to: "details"},
+            {name: "deleteTime", height: 40, type: "textarea", map_to: "deleteTime", default_value: "24"},
             {name: "time", height: 72, type: "calendar_time", map_to: "auto"}
         ];
         scheduler.init('scheduler_here', ${currentDate}, "${currentMode}");
 
 
-    #{schedulerParse objectId: "${client.login}", type: 'kort'/}
+    #{schedulerParse objectId: "${client.login}"/}
     }
 </script>
 
@@ -124,14 +155,15 @@
             var days = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
                 , "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
                 , "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
-            var action = #{jsAction @Administrator.saveEvent(':s', ':e', ':t', ':i', ':p', ':cD', ':cM', ':a', ':k')/};
+            var action = #{jsAction @Administrator.saveEvent(':s', ':e', ':t', ':i', ':p', ':cD', ':cM', ':a', ':k', ':dT')/};
             document.location = action({s: days[data.start_date.getDate()] + '-' +
                     monthNames[data.start_date.getMonth()] + '-' + data.start_date.getFullYear() + ' '
                     + data.start_date.getHours() + ':' + data.start_date.getMinutes(),
                 e: days[data.end_date.getDate()] + '-' + monthNames[data.end_date.getMonth()] + '-' +
                         data.end_date.getFullYear() + ' ' + data.end_date.getHours() + ':' +
                         data.end_date.getMinutes(), t: data.text, i: scheduler._lightbox_id,
-                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode, a: data.combo_select_abonement, k: data.combo_select_kort});
+                p: data.details, cD: formatDate(scheduler.getState().date), cM: scheduler.getState().mode,
+                a: data.combo_select_abonement, k: data.combo_select_targets, dT: data.deleteTime});
             scheduler._empty_lightbox(data);
             scheduler.hide_lightbox();
         };

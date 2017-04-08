@@ -6,6 +6,7 @@ import play.db.jpa.Model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.util.Date;
 
 @Entity
 @Table(name = "FitnesRecord")
@@ -29,4 +30,9 @@ public class FitnesRecord extends Model {
     public String type;
 
     public String abonementNumber;
+
+    public Date createDate;
+
+    @Required
+    public int deleteTime;
 }

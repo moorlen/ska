@@ -41,4 +41,6 @@ public class Abonement extends Model {
 
     @Required
     public String target;
+
+    public String description;
 }

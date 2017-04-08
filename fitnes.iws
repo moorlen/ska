@@ -2,46 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b697678f-d04e-4319-8781-e3e01819b8f7" name="Default" comment="update work with abonements">
+      <change type="DELETED" beforePath="C:\play_work\checkout2\lib\postgresql-9.1-901-1.jdbc4.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/models/Abonement.class" afterPath="$PROJECT_DIR$/precompiled/java/models/Abonement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/controllers/Admin.class" afterPath="$PROJECT_DIR$/precompiled/java/controllers/Admin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/controllers/Administrator.class" afterPath="$PROJECT_DIR$/precompiled/java/controllers/Administrator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/controllers/Application.class" afterPath="$PROJECT_DIR$/precompiled/java/controllers/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/controllers/Client.class" afterPath="$PROJECT_DIR$/precompiled/java/controllers/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/models/FitnesRecord.class" afterPath="$PROJECT_DIR$/precompiled/java/models/FitnesRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/tags/ReportTags.class" afterPath="$PROJECT_DIR$/precompiled/java/tags/ReportTags.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/controllers/Trainer.class" afterPath="$PROJECT_DIR$/precompiled/java/controllers/Trainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/java/models/User.class" afterPath="$PROJECT_DIR$/precompiled/java/models/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/400.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/400.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/403.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/403.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/errors/404.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/errors/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/404.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.json" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.txt" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.xml" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/404.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/errors/500.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/errors/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/500.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.json" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.txt" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.xml" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/errors/500.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Abonement.java" afterPath="$PROJECT_DIR$/app/models/Abonement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Admin.java" afterPath="$PROJECT_DIR$/app/controllers/Admin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Administrator.java" afterPath="$PROJECT_DIR$/app/controllers/Administrator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Client.java" afterPath="$PROJECT_DIR$/app/controllers/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/paginate/Controls.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/paginate/Controls.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/FitnesRecord.java" afterPath="$PROJECT_DIR$/app/models/FitnesRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tags/ReportTags.java" afterPath="$PROJECT_DIR$/app/tags/ReportTags.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/paginate/RowCountSummary.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/paginate/RowCountSummary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Trainer.java" afterPath="$PROJECT_DIR$/app/controllers/Trainer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.java" afterPath="$PROJECT_DIR$/app/models/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.log" afterPath="$PROJECT_DIR$/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/changePassword.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/changePassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Administrator/clients.html" afterPath="$PROJECT_DIR$/app/views/Administrator/clients.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Administrator/clients.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Administrator/clients.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/tags/paginate/controls.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/tags/paginate/controls.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" afterPath="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/codebase/ext/dhtmlxscheduler_readonly.js" afterPath="$PROJECT_DIR$/public/codebase/ext/dhtmlxscheduler_readonly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/errors.tag" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/errors.tag" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnes.iws" afterPath="$PROJECT_DIR$/fitnes.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/korts.html" afterPath="$PROJECT_DIR$/app/views/Application/korts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/fixture.tag" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/fixture.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/i18n.tag" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/i18n.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Abonements/index.html" afterPath="$PROJECT_DIR$/app/views/Abonements/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Abonements/index.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Abonements/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/index.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Client/index.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Trainer/index.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Trainer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/korts.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/korts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/tags/paginate/list.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/tags/paginate/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/loginForm.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/loginForm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/menu.html" afterPath="$PROJECT_DIR$/app/views/Application/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/main.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/menu.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Abonements/newAbonement.html" afterPath="$PROJECT_DIR$/app/views/Abonements/newAbonement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Abonements/newAbonement.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Abonements/newAbonement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/newClient.html" afterPath="$PROJECT_DIR$/app/views/Application/newClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/newClient.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/newClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/register.html" afterPath="$PROJECT_DIR$/app/views/Application/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/register.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Administrator/rooms.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Administrator/rooms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/conf/routes" afterPath="$PROJECT_DIR$/precompiled/templates/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/script.tag" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/script.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/select.tag" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/select.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/selenium.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/selenium.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/stylesheet.tag" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/stylesheet.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/tags/paginate/summary.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/tags/paginate/summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Client/viewAbonements.html" afterPath="$PROJECT_DIR$/app/views/Client/viewAbonements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Client/viewAbonements.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Client/viewAbonements.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/viewCalendar.html" afterPath="$PROJECT_DIR$/app/views/Application/viewCalendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Client/viewCalendar.html" afterPath="$PROJECT_DIR$/app/views/Client/viewCalendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Application/viewCalendar.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Application/viewCalendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Client/viewCalendar.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Client/viewCalendar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Administrator/viewClient.html" afterPath="$PROJECT_DIR$/app/views/Administrator/viewClient.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Trainer/viewClient.html" afterPath="$PROJECT_DIR$/app/views/Trainer/viewClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Administrator/viewClient.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Administrator/viewClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/app/views/Trainer/viewClient.html" afterPath="$PROJECT_DIR$/precompiled/templates/app/views/Trainer/viewClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/welcome.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/welcome_en.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/welcome_en.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/welcome_ja.html" afterPath="$PROJECT_DIR$/precompiled/templates/from_play/framework/templates/tags/welcome_ja.html" />
     </list>
     <ignored path="fitnes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490183261000" ignored="false" />
-    <file path="/viewClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490206132328" ignored="false" />
-    <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490232047828" ignored="false" />
+    <file path="/Dummy.txt" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491653049203" ignored="false" />
+    <file path="/viewClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491220380637" ignored="false" />
+    <file path="/a.dummy" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491638541921" ignored="false" />
     <file path="/dhtmlxcombo.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488885332281" ignored="false" />
     <file path="/base.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488884821906" ignored="false" />
     <file path="/rooms.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488888839687" ignored="false" />
-    <file path="/Administrator.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490231168687" ignored="false" />
+    <file path="/Administrator.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491082169937" ignored="false" />
     <file path="/menu.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490193289671" ignored="false" />
-    <file path="/Application.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490207959875" ignored="false" />
-    <file path="/clients.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488899278250" ignored="false" />
-    <file path="/index.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490207876609" ignored="false" />
-    <file path="/newAbonement.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488891852312" ignored="false" />
+    <file path="/Application.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491672286718" ignored="false" />
+    <file path="/clients.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491214825656" ignored="false" />
+    <file path="/index.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491383752421" ignored="false" />
+    <file path="/newAbonement.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490792778718" ignored="false" />
     <file path="/newClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488897573484" ignored="false" />
-    <file path="/fragment.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490230945906" ignored="false" />
-    <file path="/User.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488897335359" ignored="false" />
+    <file path="/fragment.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491666784843" ignored="false" />
+    <file path="/User.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490792829125" ignored="false" />
     <file path="/messages.ru" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488897507375" ignored="false" />
     <file path="/Client.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488898102703" ignored="false" />
-    <file path="/ReportTags.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490233601453" ignored="false" />
-    <file path="/dhtmlxscheduler.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490232691125" ignored="false" />
-    <file path="/FitnesRecord.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1488911593203" ignored="false" />
+    <file path="/ReportTags.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491381235218" ignored="false" />
+    <file path="/dhtmlxscheduler.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491223599090" ignored="false" />
+    <file path="/FitnesRecord.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490771114937" ignored="false" />
     <file path="/Trainer.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489259559062" ignored="false" />
     <file path="/JPAPaginator.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489259642140" ignored="false" />
     <file path="/JPARecordLocatorStrategy.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489260120781" ignored="false" />
-    <file path="/application.conf" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1489268156593" ignored="false" />
-    <file path="/main.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490192441140" ignored="false" />
-    <file path="/viewCalendar.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490234834062" ignored="false" />
+    <file path="/application.conf" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491377071250" ignored="false" />
+    <file path="/main.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491376799187" ignored="false" />
+    <file path="/viewCalendar.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491666130093" ignored="false" />
     <file path="/Abonements.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490206651593" ignored="false" />
+    <file path="/CleanerJob.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490775739109" ignored="false" />
+    <file path="/DataBaseService.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490770547750" ignored="false" />
+    <file path="/Abonement.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490792711968" ignored="false" />
+    <file path="/register.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490792866281" ignored="false" />
+    <file path="/aboutClient.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1490798698921" ignored="false" />
+    <file path="/UserPool.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491081161609" ignored="false" />
+    <file path="/dhtmlxscheduler_readonly.js" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491285951808" ignored="false" />
+    <file path="/Pdf.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491381641218" ignored="false" />
+    <file path="D:/Program Files/play-1.4.4/modules/excel-1.2.3/samples-and-tests/excel/app/views/Application/index.html" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491383775578" ignored="false" />
+    <file path="D:/Program Files/play-1.4.4/modules/excel-1.2.3/samples-and-tests/excel/app/controllers/Application.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491383818359" ignored="false" />
+    <file path="/RecordToExcel.java" changelist="b697678f-d04e-4319-8781-e3e01819b8f7" time="1491659233359" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,42 +138,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="jar://D:/Program Files/play-1.4.4/framework/lib/groovy-all-2.4.7.jar!/org/codehaus/groovy/control/CompilationUnit.class" line="105" class="org.codehaus.groovy.control.CompilationUnit" package="org.codehaus.groovy.control">
-        <option name="WATCH_ENTRY" value="true" />
-        <option name="WATCH_EXIT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </method_breakpoints>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://D:/Program Files/play-1.4.4/framework/src/play/templates/GroovyTemplate.java" line="167" class="play.templates.GroovyTemplate" package="play.templates">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -126,6 +172,42 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://D:/Program Files/play-1.4.4/framework/src/play/templates/GroovyTemplate.java" line="167" class="play.templates.GroovyTemplate" package="play.templates">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </line_breakpoints>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="jar://D:/Program Files/play-1.4.4/framework/lib/groovy-all-2.4.7.jar!/org/codehaus/groovy/control/CompilationUnit.class" line="105" class="org.codehaus.groovy.control.CompilationUnit" package="org.codehaus.groovy.control">
+        <option name="WATCH_ENTRY" value="true" />
+        <option name="WATCH_EXIT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </method_breakpoints>
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -134,7 +216,22 @@
     <favorites_list name="fitnes" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Application.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="323" column="103" selection-start="11077" selection-end="11077" vertical-scroll-proportion="0.38919926">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#connected#0;class#Application#0" expanded="false" />
+                <element signature="e#8775#8791#0" expanded="true" />
+                <element signature="e#9403#9426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -152,22 +249,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/Admin.java" />
         <option value="$PROJECT_DIR$/app/controllers/Trainer.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Abonements.java" />
-        <option value="$PROJECT_DIR$/app/views/Abonements/index.html" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Administrator.java" />
-        <option value="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" />
-        <option value="$PROJECT_DIR$/app/tags/ReportTags.java" />
-        <option value="$PROJECT_DIR$/app/views/Application/viewCalendar.html" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Admin.java" />
+        <option value="$PROJECT_DIR$/app/views/Administrator/clients.html" />
         <option value="$PROJECT_DIR$/app/views/Administrator/viewClient.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/korts.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/menu.html" />
-        <option value="$PROJECT_DIR$/app/views/Trainer/viewClient.html" />
-        <option value="$PROJECT_DIR$/app/views/Client/viewCalendar.html" />
+        <option value="$PROJECT_DIR$/public/codebase/dhtmlxscheduler.js" />
+        <option value="$PROJECT_DIR$/public/codebase/ext/dhtmlxscheduler_readonly.js" />
+        <option value="$PROJECT_DIR$/app/controllers/Administrator.java" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/app/services/DataBaseService.java" />
+        <option value="$PROJECT_DIR$/app/tags/ReportTags.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Pdf.java" />
+        <option value="$PROJECT_DIR$/app/controllers/ExcelControllerHelper.java" />
+        <option value="$PROJECT_DIR$/app/dto/RecordToExcel.java" />
+        <option value="$PROJECT_DIR$/app/views/Application/viewCalendar.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
       </list>
     </option>
   </component>
@@ -205,6 +302,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,10 +335,119 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,22 +459,23 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Мои документы/Downloads/groovy-all-2.4.7-sources.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fitnes.ipr" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\play_work\checkout2\app\views\Application" />
       <recent name="C:\play_work\checkout2\app\views\Administrator" />
+      <recent name="C:\play_work\checkout2\app\views\Application" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\play_work\checkout2\app\views\Application" />
@@ -286,19 +494,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -329,6 +524,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -342,6 +550,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -363,13 +578,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
@@ -428,15 +636,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="743" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5347222" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20659722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4652778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4809028" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -444,13 +651,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24642126" sideWeight="0.7934028" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31083843" sideWeight="0.5190972" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4357639" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -517,121 +725,111 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Application/menu.html">
+    <entry file="jar://D:/Program Files/play-1.4.4/framework/play-1.4.4.jar!/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="55" selection-start="697" selection-end="697" vertical-scroll-proportion="0.6164122">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/play-1.4.4/framework/play-1.4.4.jar!/play.plugins">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/FitnesRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="442" selection-end="445" vertical-scroll-proportion="0.5072727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/newClient.html">
+    <entry file="file://C:/Downloads/Архивы/jxls-master/jxls-master/src/site/xdoc/samples/collectionsample.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5244617">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.549348" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/grid-excel/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="221" selection-end="235" vertical-scroll-proportion="0.07272727" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/grid-excel/WEB-INF/src/com/dhtmlx/xml2excel/ExcelGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/grid-excel/WEB-INF/src/com/dhtmlx/xml2excel/ExcelWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.972067" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="105" selection-start="2067" selection-end="2085" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/register.html">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.44227">
+        <state line="1957" column="18" selection-start="76623" selection-end="76623" vertical-scroll-proportion="0.33189654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dto/RecordToExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/play-1.4.4/framework/lib/joda-time-2.9.7.jar!/org/joda/time/LocalDate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="15" selection-start="7085" selection-end="7085" vertical-scroll-proportion="0.3503055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/play-1.4.4/framework/lib/joda-time-2.9.7.jar!/org/joda/time/DateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="11" selection-start="2335" selection-end="2335" vertical-scroll-proportion="0.3503055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/CleanerJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3482309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tags/ReportTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="43" selection-start="1888" selection-end="1906" vertical-scroll-proportion="0.99230766">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/viewCalendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="716" selection-end="720" vertical-scroll-proportion="-1.485323">
+        <state line="132" column="94" selection-start="5244" selection-end="5244" vertical-scroll-proportion="0.6752137">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Client/index.html">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Client/viewAbonements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7964775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/errors/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/errors/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/paginate/Controls.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.58317024">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/paginate/RowCountSummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/paginate/controls.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/paginate/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.23282443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/paginate/summary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Trainer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29745597">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Client/viewCalendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="85" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.6223092">
+        <state line="323" column="103" selection-start="11077" selection-end="11077" vertical-scroll-proportion="0.38919926">
           <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#connected#0;class#Application#0" expanded="false" />
+            <element signature="e#8775#8791#0" expanded="true" />
+            <element signature="e#9403#9426#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Trainer/viewClient.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="116" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-1.7103719">
-          <folding />
         </state>
       </provider>
     </entry>

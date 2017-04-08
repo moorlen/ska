@@ -44,6 +44,8 @@ public class User extends Model {
     @OneToMany
     List<Abonement> abonements;
 
+    public String phone;
+
     public static User connect(String login, String password) {
         return find("byLoginAndPassword", login, password).first();
     }

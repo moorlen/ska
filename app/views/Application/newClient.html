@@ -76,6 +76,17 @@
         </td>
     </tr>
     <tr>
+        <th>Телефон:</th>
+        <td>
+            #{field 'client.phone'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${client?.phone}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
         <th>Email:</th>
         <td>
             #{field 'client.email'}

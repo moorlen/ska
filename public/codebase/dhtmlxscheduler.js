@@ -2348,6 +2348,9 @@ window.dhtmlXScheduler = window.scheduler = {version: "4.4.0"}, window.dhtmlx ||
         this._waiAria.lightboxHeader(t, r.join(" "));
         for (var l = this.config.lightbox.sections, o = 0; o < l.length; o++) {
             var h = l[o], _ = document.getElementById(h.id).nextSibling, c = this.form_blocks[h.type], u = void 0 !== i[h.map_to] ? i[h.map_to] : h.default_value;
+            if ("text" === h.map_to && Object.keys(i[h.map_to]).length === 0) {
+                u = h.default_value;
+            }
             c.set_value.call(this, _, u, i, h),
                 l[o].focus && c.focus.call(this, _)
         }
@@ -2472,7 +2475,7 @@ window.dhtmlXScheduler = window.scheduler = {version: "4.4.0"}, window.dhtmlx ||
                         var a = scheduler._waiAria.lightboxSectionButtonAttrString(this.locale.labels["button_" + s[r].button]);
                         d = "<div " + a + " class='dhx_custom_button' index='" + r + "'><div class='dhx_custom_button_" + s[r].button + "'></div><div>" + this.locale.labels["button_" + s[r].button] + "</div></div>"
                     }
-                    this.config.wide_form && (t += "<div class='dhx_wrap_section' id='"+s[r].name+"_block'>");
+                    this.config.wide_form && (t += "<div class='dhx_wrap_section' id='" + s[r].name + "_block'>");
                     var l = this.locale.labels["section_" + s[r].name];
                     "string" != typeof l && (l = s[r].name), t += "<div id='" + s[r].id + "' class='dhx_cal_lsection'>" + d + "<label>" + l + "</label></div>" + n.render.call(this, s[r]), t += "</div>"
                 }

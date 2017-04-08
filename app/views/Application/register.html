@@ -77,12 +77,22 @@
         </td>
     </tr>
     <tr>
-        <th>Тип пользователя:</th>
+        <th>Телефон:</th>
         <td>
-            #{field 'user.type'}
+            #{field 'user.phone'}
                 <p class="${field.errorClass}">
-                    #{select 'user.type', value:user?.type, id:'user.type',items:types.entrySet(),labelProperty:'value',valueProperty:'key'}
-                    #{/select}
+                    <input type="text" name="${field.name}" size="16" value="${user?.phone}">
+                    <span class="error">${field.error}</span>
+                </p>
+            #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Email:</th>
+        <td>
+            #{field 'user.email'}
+                <p class="${field.errorClass}">
+                    <input type="text" name="${field.name}" size="16" value="${user?.email}">
                     <span class="error">${field.error}</span>
                 </p>
             #{/field}

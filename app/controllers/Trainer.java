@@ -7,10 +7,12 @@ import models.Abonement;
 import models.FitnesRecord;
 import models.User;
 import play.modules.paginate.ValuePaginator;
+import services.UserPool;
 import utils.UserComporator;
 
 public class Trainer extends Application {
     public static void index() {
+        UserPool.get().join(connected().login);
         session.put("currentDate", "");
         session.put("currentMode", "");
         List<User> users = User.find("byType", "client").fetch();

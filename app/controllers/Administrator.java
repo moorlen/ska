@@ -2,40 +2,22 @@ package controllers;
 
 import models.*;
 import play.modules.paginate.ValuePaginator;
+import services.UserPool;
 import utils.UserComporator;
 
 import java.util.*;
 
 
 public class Administrator extends Application {
-    public static void saveEvent(String startDate, String endDate, String text, String id, String price, String currentDate, String currentMode) {
-        FitnesRecord record = FitnesRecord.findById(new Long(id));
-        String currentAbonement;
-        if (record == null) {
-            record = new FitnesRecord();
-        } else {
-            currentAbonement = record.abonementNumber;
-        }
-        record.startDate = startDate;
-        record.endDate = endDate;
-        record.text = text;
-        record.who = session.get("choiceObject");
-        if (!("".equals(price) || "null".equals(price))) {
-            record.price = new Float(price);
-        }
-        record.save();
-        session.put("currentDate", currentDate);
-        session.put("currentMode", currentMode);
-        index();
-    }
-
     public static void deleteEvent(String id) {
         FitnesRecord record = FitnesRecord.findById(new Long(id));
         record.delete();
+        UserPool.get().say(connected().login, id);
         index();
     }
 
     public static void rooms() {
+        UserPool.get().join(connected().login);
         session.put("currentDate", "");
         session.put("currentMode", "");
         render();
@@ -71,7 +53,12 @@ public class Administrator extends Application {
         render(currentDate, currentMode, choiceObject, client);
     }
 
-    public static void saveEvent(String startDate, String endDate, String text, String id, String price, String currentDate, String currentMode, String abonement, String kort) {
+    public static void aboutClient(Long clientId) {
+        User client = User.findById(clientId);
+        render(client);
+    }
+
+    public static void saveEvent(String startDate, String endDate, String text, String id, String price, String currentDate, String currentMode, String abonement, String kort, String deleteTime) {
         FitnesRecord record = FitnesRecord.findById(new Long(id));
         if (record == null) {
             record = new FitnesRecord();
@@ -89,14 +76,22 @@ public class Administrator extends Application {
         if (!("".equals(price) || "null".equals(price))) {
             record.price = new Float(price);
         }
-        if (abonement != null) {
+        if (!("".equals(abonement)) && (abonement != null)) {
             Abonement byNumber = Abonement.find("byNumber", abonement).first();
             byNumber.ostatok--;
             byNumber.save();
         }
         record.abonementNumber = abonement;
         record.type = kort;
+
+        record.createDate = new Date();
+        if ("".equals(deleteTime) || (deleteTime == null)) {
+            record.deleteTime = 24;
+        } else {
+            record.deleteTime = new Integer(deleteTime);
+        }
         record.save();
+        UserPool.get().say(connected().login, id);
         session.put("currentDate", currentDate);
         session.put("currentMode", currentMode);
         if (clientLogin == null) {

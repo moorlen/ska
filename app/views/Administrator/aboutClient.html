@@ -1,0 +1,84 @@
+#{extends 'main.html' /}
+#{set title:'Данные' /}
+
+<h1>Данные</h1>
+
+<table>
+    <tbody>
+    <tr>
+        <th>Логин:</th>
+        <td>
+        #{field 'client.login'}
+            <input type="text" name="${field.name}" size="16" value="${client?.login}" disabled="true">
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Фамилия:</th>
+        <td>
+        #{field 'client.firstName'}
+            <input type="text" name="${field.name}" size="16" value="${client?.firstName}" disabled="true">
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Имя:</th>
+        <td>
+        #{field 'client.lastName'}
+            <input type="text" name="${field.name}" size="16" value="${client?.lastName}" disabled="true">
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Отчество:</th>
+        <td>
+        #{field 'client.thirdName'}
+            <p class="${field.errorClass}">
+                <input type="text" name="${field.name}" size="16" value="${client?.thirdName}" disabled="true">
+                <span class="error">${field.error}</span>
+            </p>
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Дата рождения:</th>
+        <td>
+        #{field 'client.birthDate'}
+            <p class="${field.errorClass}">
+                <input type="text" name="${field.name}"
+                       value="${client?.birthDate?.format()}" disabled="true"/>
+            </p>
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Телефон:</th>
+        <td>
+        #{field 'client.phone'}
+            <input type="text" name="${field.name}" size="16" value="${client?.phone}" disabled="true">
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <th>Email:</th>
+        <td>
+        #{field 'client.email'}
+            <input type="text" name="${field.name}" size="16" value="${client?.email}" disabled="true">
+        #{/field}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" onclick="cancel()" value="Назад"/>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    function cancel() {
+        var action = #{jsAction @Administrator.clients() /};
+        document.location = action();
+    }
+    ;
+</script>

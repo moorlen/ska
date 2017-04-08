@@ -4,14 +4,16 @@
 <table>
     <tr>
         <td>ФИО</td>
-        <td>Действие</td>
+        <td>Действия</td>
     </tr>
 #{paginate.list items:allUser, as:'currentUser'}
     <tr>
         <td>
-            <a href="@{Administrator.viewClient(currentUser.id)}">${currentUser.firstName} ${currentUser.lastName} ${currentUser.thirdName}</a>
+            <a href="@{Administrator.aboutClient(currentUser.id)}">${currentUser.firstName} ${currentUser.lastName} ${currentUser.thirdName}</a>
         </td>
-        <td><a href="@{Abonements.index(currentUser.id)}">Абонименты</a></td>
+        <td>
+            <a href="@{Administrator.viewClient(currentUser.id)}">Календарь</a>
+            <a href="@{Abonements.index(currentUser.id)}">Абонименты</a></td>
     </tr>
 #{/paginate.list}
     <tr>

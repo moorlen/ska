@@ -9,6 +9,7 @@
             <td>Использовано</td>
             <td>Осталось</td>
             <td>Вид</td>
+            <td>Описание</td>
             <td>Цена</td>
         </tr>
     #{paginate.list items:allAbonemets, as:'currentAbonement'}
@@ -23,6 +24,7 @@
             #{else}
                 <td>Тренажерный зал</td>
             #{/else}
+            <td>${currentAbonement.description}</td>
             <td>${currentAbonement.price}</td>
         </tr>
     #{/paginate.list}

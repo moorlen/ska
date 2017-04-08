@@ -3,13 +3,28 @@ package controllers;
 import models.Abonement;
 import models.FitnesRecord;
 import models.User;
+import org.joda.time.DateTime;
+import org.joda.time.LocalDate;
+import play.Logger;
 import play.data.validation.Valid;
+import play.db.jpa.JPABase;
 import play.mvc.Before;
 import play.mvc.Controller;
+import play.mvc.With;
+import services.DataBaseService;
+import services.UserPool;
 
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
+import dto.*;
+
+@With(ExcelControllerHelper.class)
 public class Application extends Controller {
 
     @Before
@@ -114,23 +129,16 @@ public class Application extends Controller {
     }
 
     public static void register() {
-        Map<String, String> types = new LinkedHashMap<String, String>();
-        types.put("administrator", "Администратор");
-        types.put("client", "Клиент");
-        types.put("trainer", "Тренер");
-        render(types);
+        render();
     }
 
     public static void saveUser(@Valid User user, String verifyPassword) {
         validation.required(verifyPassword);
         validation.equals(verifyPassword, user.password).message("Пароли не совпадают");
         if (validation.hasErrors()) {
-            Map<String, String> types = new LinkedHashMap<String, String>();
-            types.put("administrator", "Администратор");
-            types.put("client", "Клиент");
-            types.put("trainer", "Тренер");
-            render("@register", user, verifyPassword, types);
+            render("@register", user, verifyPassword);
         }
+        user.type = "client";
         user.create();
         session.put("login", user.login);
         session.put("password", user.password);
@@ -171,6 +179,9 @@ public class Application extends Controller {
                 case 't':
                     Trainer.index();
                     break;
+                case 's':
+                    Admin.index();
+                    break;
             }
         }
         // Oops
@@ -181,6 +192,7 @@ public class Application extends Controller {
 
     public static void logout() {
         session.clear();
+        UserPool.get().leave(connected().login);
         index();
     }
 
@@ -260,5 +272,80 @@ public class Application extends Controller {
                     break;
             }
         }
+    }
+
+    public static void generateNameCard(String currentDate, String object) {
+        List<FitnesRecord> contacts = FitnesRecord.findAll();
+        Map<String, String> months = new LinkedHashMap<String, String>();
+        months.put("01", "ЯНВАРЬ");
+        months.put("02", "ФЕВРАЛЬ");
+        months.put("03", "МАРТ");
+        months.put("04", "АПРЕЛЬ");
+        months.put("05", "МАЙ");
+        months.put("06", "ИЮНЬ");
+        months.put("07", "ИЮЛЬ");
+        months.put("08", "АВГУСТ");
+        months.put("09", "СЕНТЯБРЬ");
+        months.put("10", "ОКТЯБРЬ");
+        months.put("11", "НОЯБРЬ");
+        months.put("12", "ДЕКАБРЬ");
+        String year = currentDate.substring(6, 10);
+        String month = months.get(currentDate.substring(3, 5));
+        Map<String, RecordToExcel> recordMap = new LinkedHashMap<String, RecordToExcel>();
+        String dateToSQL = "-" + currentDate.substring(3, 5) + "-" + year;
+        LocalDate dt = LocalDate.now();
+        int dayOfWeek = dt.withYear(new Integer(year)).withMonthOfYear(new Integer(currentDate.substring(3, 5))).withDayOfMonth(1).getDayOfWeek();
+        DateTime dateTime = new DateTime(new Integer(year), new Integer(currentDate.substring(3, 5)), 14, 12, 0, 0, 000);
+        int maximumValue = dateTime.dayOfMonth().getMaximumValue();
+        int i = 1;
+        while (i < 38) {
+            recordMap.put("day" + i, new RecordToExcel());
+            i++;
+        }
+        i = 1;
+        int j = dayOfWeek;
+        while (i < maximumValue + 1) {
+            ((RecordToExcel) recordMap.get("day" + j)).setNumber(i);
+            i++;
+            j++;
+        }
+        Connection dbConnection = null;
+        Statement statement = null;
+        DataBaseService dataBaseService = new DataBaseService();
+        try {
+            dbConnection = dataBaseService.getDBConnection();
+            statement = dbConnection.createStatement();
+            ResultSet rs = statement.executeQuery("SELECT startDate, endDate, text FROM FitnesRecord " +
+                    "WHERE startDate LIKE '%" + dateToSQL + "%' AND (who = '" + object + "' OR type = '" + object + "')");
+            while (rs.next()) {
+                String startDate = rs.getString("startDate");
+                String day = startDate.substring(0, 2);
+                String startTime = startDate.substring(11).replace(startDate.substring(startDate.indexOf(":")), "");
+                String text = startDate.substring(11) + "-" + rs.getString("endDate").substring(11) + "\r\n" + rs.getString("text");
+                ((RecordToExcel) recordMap.get("day" + (new Integer(day) + dayOfWeek - 1))).getTimeMap().put(startTime, text);
+            }
+
+        } catch (Exception e) {
+        } finally {
+
+            if (statement != null) {
+                try {
+                    statement.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (dbConnection != null) {
+                try {
+                    dbConnection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        request.format = "xls";
+        renderArgs.put("__EXCEL_FILE_NAME__", contacts.get(0).getId() + ".xls");
+        render(contacts, year, month, recordMap);
     }
 }
